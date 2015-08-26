@@ -289,7 +289,7 @@
 
                             <div id="success"></div>
                             <div class="col-md-12 text-center form-buttons">
-                                <button id="submitForm" type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
 
                           <div style="display:none;">
@@ -374,32 +374,6 @@
     <script src="scripts/jqBootstrapValidation.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
     <script src="scripts/main.min.js"></script>
-    <script>
-        $('#submitForm').click( function() {
-            var firstHackathon;
-
-            $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
-
-            $.ajax({
-                url:    "./scripts/register.php",
-                type:   "POST",
-                data:   {
-                    firstName:  $('#Field1').val(),
-                    lastName:  $('#Field2').val(),
-                    email:  $('#Field3').val(),
-                    school:  $('#Field4').val(),
-                    resume: $('#Field5').val(),
-                    first: firstHackathon
-
-                },
-                success: function(data) {
-                    $('#form1').append('<p class="lead">Thanks for registering!</p>')
-                }
-            });
-        });
-
-
-    </script>
 
 </body>
 
