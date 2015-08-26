@@ -267,14 +267,14 @@
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field4">Your School</label>
                                             <div class="col-sm-9">
-                                                <input id="Field4" name="Field4" type="text" class="form-control" placeholder="Lehigh University" value="" size="14" tabindex="4" required="">
+                                                <input id="Field4" name="Field4" type="text" class="form-control" placeholder="Lehigh University" value="" size="14" tabindex="4" required="" required data-validation-required-message="Where do you go to school?">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field4">Resume</label>
                                             <div class="col-sm-9">
-                                                <input id="Field5" name="Field5" type="file" class="form-control" size="12" tabindex="5">
+                                                <input id="Field5" name="Field5" type="file" class="form-control" size="12" tabindex="5" required data-validation-required-message="Submit your resume.">
                                             </div>
                                         </div>
                                         <div class="form-group">
@@ -289,7 +289,7 @@
 
                             <div id="success"></div>
                             <div class="col-md-12 text-center form-buttons">
-                                <button type="submit" class="btn btn-success btn-lg">Send</button>
+                                <button id="submitForm" type="submit" class="btn btn-success btn-lg">Send</button>
                             </div>
 
                           <div style="display:none;">
