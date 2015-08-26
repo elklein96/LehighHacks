@@ -242,7 +242,7 @@
                         </div>
                     </div>
                     <div class="row">
-                        <form id="form1" name="form1" class="form-horizontal" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data" method="post" action="/scripts/register.php">
+                        <form id="form1" name="form1" class="form-horizontal" accept-charset="UTF-8" autocomplete="off" enctype="multipart/form-data">
 
                             <div class="col-md-8 col-md-offset-2">
                                 <div class="panel panel-default animated fadeInUp">
@@ -281,7 +281,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field5">First Hackathon?</label>
                                             <div class="col-sm-9">
-                                                <input id="Field6" name="Field6" type="checkbox" value="">
+                                                <input id="Field6" name="Field6" type="checkbox" value="true">
                                             </div>
                                         </div>
                                     </div>
@@ -289,7 +289,7 @@
                             </div>
 
                             <div class="col-md-12 text-center form-buttons">
-                                <input id="saveForm" name="saveForm" class="btn btn-success" type="submit" value="Submit">
+                                <input id="submitForm" name="submitForm" class="btn btn-success" type="submit" value="Submit">
                             </div>
 
                           <div style="display:none;">
@@ -373,6 +373,32 @@
     <script src="scripts/jqBootstrapValidation.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
     <script src="scripts/main.min.js"></script>
+    <script>
+        $('#submitForm').click( function() {
+            var firstHackathon;
+
+            $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
+
+            $.ajax({
+                type:   "POST",
+                url:    "/scripts/register.php",
+                data:   {
+                    firstName:  $('#Field1').val,
+                    lastName:  $('#Field2').val,
+                    email:  $('#Field3').val,
+                    school:  $('#Field4').val,
+                    resume: $('#Field5').prop('files'),
+                    first: firstHackathon
+
+                },
+                success: function(data) {
+                    $('#form1').append('<p class="lead">Thanks for registering!</p>')
+                }
+            });
+        });
+
+
+    </script>
 
 </body>
 
