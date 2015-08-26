@@ -8,6 +8,8 @@ $(function() {
             var firstHackathon;
             $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
 
+            console.log($('#Field1').val());
+
             $.ajax({
                 url:    "./scripts/register.php",
                 type:   "POST",
