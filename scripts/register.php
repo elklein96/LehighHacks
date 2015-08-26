@@ -18,7 +18,7 @@ try {
 function addToMongo($document, $id){
 	global $collection;
 
-	echo($document);
+	error_log($document);
 
 	$idQuery = array('id' => $id);
 	if($collection->find($idQuery)->count() == 0){
