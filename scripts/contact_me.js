@@ -23,7 +23,7 @@ $(function() {
 
                 },
                 success: function(data) {
-                    $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750));;
+                    $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750);
                 }
             });
         },
