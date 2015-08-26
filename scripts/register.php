@@ -6,6 +6,8 @@ try {
 	$collection = $db->registrants;
 	$id = uniqid();
 
+	error_log("fire");
+
 	if(isset($_POST['data']))
 		addToMongo(array('data'=>$_POST['data']), $id);
 	else
