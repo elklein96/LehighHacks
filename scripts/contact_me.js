@@ -7,7 +7,7 @@ $(function() {
         submitSuccess: function($form, event) {
             var firstHackathon;   
             $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
-            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "school": $('#Field4').val(), "resume": $('#Field5').val(), "first": firstHackathon}
+            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "school": $('#Field4').val(), "resume": $('#Field5').get(0).files[0], "first": firstHackathon}
 
             $.ajax({
                 url:    "./scripts/register.php",
