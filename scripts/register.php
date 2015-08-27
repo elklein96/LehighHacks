@@ -17,9 +17,7 @@ try {
 function addToMongo($document){
 	global $collection;
 
-	error_log($document);
-
-	$email = $document->{'email'};
+	$email = $document['email'];
 
 	$emailQuery = array('email' => $email);
 	if($collection->find($emailQuery)->count() == 0){
