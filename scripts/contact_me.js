@@ -20,7 +20,7 @@ $(function() {
                     if(data.indexOf("user-exists") > -1){
                         $('#success').append('<p class="lead">Hey, '+$('#Field1').val()+'! Looks like we already have that email registered!</p>').hide().fadeIn(750); 
                     }
-                    else{
+                    if(data.indexOf("added-user") > -1){
                         $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750);
                         $('#submitButton').prop("disabled",true);
                     }
