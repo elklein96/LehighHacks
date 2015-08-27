@@ -17,7 +17,11 @@ try {
 function addToMongo($document){
 	global $collection;
 
-	$wmailQuery = array('email' => $$email);
+	error_log($document);
+
+	$email = $document->{'email'};
+
+	$emailQuery = array('email' => $email);
 	if($collection->find($emailQuery)->count() == 0){
 		error_log("Added data");
 		$collection->insert($document);
