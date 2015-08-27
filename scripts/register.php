@@ -21,7 +21,7 @@ function addToMongo($document){
 
 	$emailQuery = array('email' => $email);
 	if($collection->find($emailQuery)->count() == 0){
-		error_log("added-user");
+		echo("added-user");
 		$collection->insert($document);
 	}
 	else
