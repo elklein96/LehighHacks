@@ -4,10 +4,9 @@ try {
 	$m = new Mongo();
 	$db = $m->LehighHacks;
 	$collection = $db->registrants;
-	$id = uniqid();
 
 	if(isset($_POST['data']))
-		addToMongo(array('data'=>$_POST['data']), $id);
+		addToMongo($_POST['data']);
 	else
 		error_log("No data received");
 
@@ -15,18 +14,16 @@ try {
 	echo "Error Cannot connect to MongoDB.";
 }
 
-function addToMongo($document, $id){
+function addToMongo($document){
 	global $collection;
 
-	error_log($document);
-
-	$idQuery = array('id' => $id);
-	if($collection->find($idQuery)->count() == 0){
+	$wmailQuery = array('email' => $$email);
+	if($collection->find($emailQuery)->count() == 0){
 		error_log("Added data");
 		$collection->insert($document);
 	}
 	else
-		error_log("Data already exists");
+		error_log("User already exists");
 }
 
 ?>

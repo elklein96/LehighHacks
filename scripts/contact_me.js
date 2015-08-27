@@ -18,6 +18,9 @@ $(function() {
                 success: function(data) {
                     $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750);
                     $('#submitButton').prop("disabled",true);
+                },
+                error: function(data) {
+                    $('#success').append('<p class="lead">Sorry, '+$('#Field1').val()+', but it looks like we are having trouble right now.</p>').hide().fadeIn(750);
                 }
             });
         },
