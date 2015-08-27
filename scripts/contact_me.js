@@ -16,11 +16,16 @@ $(function() {
                     data: data
                 },
                 success: function(data) {
-                    $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750);
-                    $('#submitButton').prop("disabled",true);
+                    if(data.indexOf("user-exists" > -1)){
+                        $('#success').append('<p class="lead">Hey, '+$('#Field1').val()+'! Looks like we already have that email registered!</p>').hide().fadeIn(750); 
+                    }
+                    else{
+                        $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750);
+                        $('#submitButton').prop("disabled",true);
+                    }
                 },
                 error: function(data) {
-                    $('#success').append('<p class="lead">Sorry, '+$('#Field1').val()+', but it looks like we are having trouble right now.</p>').hide().fadeIn(750);
+                    $('#success').append('<p class="lead">Sorry, '+$('#Field1').val()+', but it looks like we are having trouble right now. Try again later!</p>').hide().fadeIn(750);
                 }
             });
         },

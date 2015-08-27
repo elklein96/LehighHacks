@@ -25,7 +25,7 @@ function addToMongo($document){
 		$collection->insert($document);
 	}
 	else
-		error_log("User already exists");
+		echo("user-exists");
 }
 
 ?>
