@@ -16,7 +16,7 @@ $(function() {
                     data: data
                 },
                 success: function(data) {
-                    $('#success').innerHTML = "";
+                    $('#success').empty();
                     if(data.indexOf("user-exists") > -1){
                         $('#success').append('<p class="lead">Hey, '+$('#Field1').val()+'! Looks like we already have that email registered!</p>').hide().fadeIn(750); 
                     }
