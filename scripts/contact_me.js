@@ -5,25 +5,19 @@ $(function() {
         submitError: function($form, event, errors) {
         },
         submitSuccess: function($form, event) {
-            var firstHackathon;
+            var firstHackathon;   
             $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
-
-            console.log($('#Field1').val());
+            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "school": $('#Field4').val(), "resume": $('#Field5').val(), "first": firstHackathon}
 
             $.ajax({
                 url:    "./scripts/register.php",
                 type:   "POST",
                 data:   {
-                    firstName:  $('#Field1').val(),
-                    lastName:  $('#Field2').val(),
-                    email:  $('#Field3').val(),
-                    school:  $('#Field4').val(),
-                    resume: $('#Field5').val(),
-                    first: firstHackathon
-
+                    data: data
                 },
                 success: function(data) {
                     $('#success').append('<p class="lead">Thanks for registering, '+$('#Field1').val()+'!</p>').hide().fadeIn(750);
+                    $('#submitButton').prop("disabled",true);
                 }
             });
         },
