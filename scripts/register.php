@@ -7,8 +7,6 @@ try {
 	$db = $m->LehighHacks;
 	$collection = $db->registrants;
 
-	$sendgrid = new SendGrid('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');
-
 	if(isset($_POST['data']))
 		addToMongo($_POST['data']);
 	else
@@ -34,7 +32,9 @@ function addToMongo($document){
 }
 
 function sendEmail($recipient){
+	$sendgrid = new SendGrid('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');
 	$email = new SendGrid\Email();
+
 	$email
 	    ->addTo($recipient)
 	    ->setFrom('donotreply@lehighhacks.com')
