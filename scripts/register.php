@@ -1,6 +1,6 @@
 <?php
 
-require("/var/www/html/scripts/library/sendgrid-php.php");
+require("/var/www/html/scripts/library/sendgrid-php/sendgrid-php.php");
 
 try {
 	$m = new Mongo();
