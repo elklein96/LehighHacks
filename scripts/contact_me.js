@@ -5,9 +5,10 @@ $(function() {
         submitError: function($form, event, errors) {
         },
         submitSuccess: function($form, event) {
+            var reader = new FileReader();
             var firstHackathon;   
             $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
-            console.log($('#Field5').get(0).files[0]);
+            console.log(reader.readAsArrayBuffer($('#Field5').get(0).files[0]));
             var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "school": $('#Field4').val(), "resume": $('#Field5').val(), "first": firstHackathon}
 
             $.ajax({
@@ -41,7 +42,6 @@ $(function() {
         $(this).tab("show");
     });
 });
-
 
 $('#name').focus(function() {
     $('#success').html('');
