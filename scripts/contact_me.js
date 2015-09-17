@@ -7,9 +7,9 @@ $(function() {
         submitSuccess: function($form, event) {
             var reader = new FileReader();
             var firstHackathon;   
-            $("#Field6").is(':checked') ? firstHackathon = true : firstHackathon = false;
-            console.log(reader.readAsArrayBuffer($('#Field5').get(0).files[0]));
-            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "school": $('#Field4').val(), "resume": $('#Field5').val(), "first": firstHackathon}
+            $("#Field7").is(':checked') ? firstHackathon = true : firstHackathon = false;
+            console.log(reader.readAsArrayBuffer($('#Field6').get(0).files[0]));
+            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "school": $('#Field4').val(), "school": $('#Field5').val(), "resume": $('#Field6').val(), "first": firstHackathon}
 
             $.ajax({
                 url:    "./scripts/register.php",
