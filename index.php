@@ -260,7 +260,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field4">Your Email</label>
                                             <div class="col-sm-9">
-                                                <input id="Field3" name="Field3" type="email" spellcheck="false" class="form-control" placeholder="john.doe@example.com" value="" maxlength="255" tabindex="3" required="" required data-validation-required-message="What's your email?">
+                                                <input id="Field3" name="Field3" type="email" spellcheck="false" class="form-control" placeholder="john.doe@lehigh.edu" value="" maxlength="255" tabindex="3" required="" required data-validation-required-message="What's your email?">
                                             </div>
                                         </div>
 
