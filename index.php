@@ -279,9 +279,9 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="col-sm-3 control-label" for="Field4">Your School</label>
+                                            <label class="col-sm-3 control-label" for="Field4">Goals</label>
                                             <div class="col-sm-9">
-                                                <input id="Field5" name="Field5" type="text" class="form-control" placeholder="Lehigh University" value="" size="14" tabindex="6" required="" required data-validation-required-message="Where do you go to school?">
+                                                <input id="Field5" name="Field5" type="text" class="form-control" placeholder="I want to explore IoT and hardware hacks" value="" size="14" tabindex="6" required="" required data-validation-required-message="What do you want to gain from this event?">
                                             </div>
                                         </div>
 
