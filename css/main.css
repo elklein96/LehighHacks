@@ -191,7 +191,7 @@ p.copyright {
 
 .static-background{
     background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-attachment: fixed;
+    
     background-size: cover;
 }
 
