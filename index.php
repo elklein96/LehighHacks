@@ -66,7 +66,7 @@
                             <div id="intro" class="intro-message">
                                 <h1>LehighHacks</h1>
                                 <h3>Lehigh University's Premiere Hackathon</h3>
-                                <h3><i class="fa fa-clock-o"></i> April 1st - April 2nd, 2015</h3>
+                                <h3><i class="fa fa-clock-o"></i> March 31st - April 1st, 2015</h3>
                                 <hr class="intro-divider">
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
@@ -104,7 +104,7 @@
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">How does this work?</h3>
-                            <p class="lead">LehighHacks is a 24 hour event from April 1st - April 2nd, 2015 and will be held at The Wilbur Powerhouse. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
+                            <p class="lead">LehighHacks is a 36 hour event from March 31st - April 1st, 2015 and will be held at The Mountaintop Campus. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
@@ -135,7 +135,7 @@
                     <hr class="heading-spacer">
                     <div class="col-sm-2"></div>
                     <div class="row col-sm-8">
-                        <h4 style="text-align:center">Friday, April 1st</h4>  
+                        <h4 style="text-align:center">Thursday, March 31st</h4>  
                         <table class="table table-bordered table-hover table-striped center">
                             <thead>
                                 <tr>
@@ -163,7 +163,7 @@
                             </tbody>
                         </table>
                         <br>
-                        <h4 style="text-align:center">Saturday, April 2nd</h4>   
+                        <h4 style="text-align:center">Friday, April 1st</h4>   
                         <table class="table table-bordered table-hover table-striped center">
                             <thead>
                                 <tr>
@@ -213,7 +213,7 @@
                     <h1 style="text-align:center">Map</h1>
                     <hr class="heading-spacer">
                     
-                    <iframe width="75%" height="450" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=12%20East%20Packer%20Avenue%2C%20Bethlehem%2C%20PA%2C%20United%20States&key=AIzaSyBkB2vfPuIONIby4qRDafNncE2DVbNuVI4" allowfullscreen></iframe>
+                    <iframe width="75%" height="450" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.283007352866!2d-75.36192154958353!3d40.601579179242606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43e1430c143a7%3A0xa1f258e8dd222173!2sLehigh+University%2C+Iacocca+Hall!5e0!3m2!1sen!2sus!4v1452870783793" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
@@ -272,18 +272,19 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="col-sm-3 control-label" for="Field4">Your School</label>
+                                            <label class="col-sm-3 control-label" for="Field4">Resume</label>
                                             <div class="col-sm-9">
-                                                <input id="Field5" name="Field5" type="text" class="form-control" placeholder="Lehigh University" value="" size="14" tabindex="5" required="" required data-validation-required-message="Where do you go to school?">
+                                                <input id="Field6" name="Field6" type="file" class="form-control" size="12" tabindex="5" required data-validation-required-message="Submit your resume.">
                                             </div>
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="col-sm-3 control-label" for="Field4">Resume</label>
+                                            <label class="col-sm-3 control-label" for="Field4">Your School</label>
                                             <div class="col-sm-9">
-                                                <input id="Field6" name="Field6" type="file" class="form-control" size="12" tabindex="6" required data-validation-required-message="Submit your resume.">
+                                                <input id="Field5" name="Field5" type="text" class="form-control" placeholder="Lehigh University" value="" size="14" tabindex="6" required="" required data-validation-required-message="Where do you go to school?">
                                             </div>
                                         </div>
+
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field5">First Hackathon?</label>
                                             <div class="col-sm-9">
@@ -370,7 +371,7 @@
                                 <a href="#more">More</a>
                             </li>
                         </ul>
-                        <p class="copyright text-muted small">Copyright &copy; Lehigh University Create Club 2015. All Rights Reserved</p>
+                        <p class="copyright text-muted small">Copyright &copy; Lehigh University Create Club 2016. All Rights Reserved</p>
                     </div>
                 </div>
             </div>
