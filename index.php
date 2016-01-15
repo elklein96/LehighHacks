@@ -279,9 +279,16 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Dietary Restrictions</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field8" name="Field8" type="text" class="form-control" placeholder="Vegetarian, Kosher, N/A, etc..." value="" tabindex="6" required="" required data-validation-required-message="Do you have food restrictions?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field4">Goals</label>
                                             <div class="col-sm-9">
-                                                <textarea id="Field5" name="Field5" type="text" class="form-control" placeholder="I want to explore IoT and hardware hacks" value="" size="14" tabindex="6" rows="3" required="" required data-validation-required-message="What do you want to gain from this event?"></textarea>
+                                                <textarea id="Field5" name="Field5" type="text" class="form-control" placeholder="I want to explore IoT and hardware hacks" value="" size="14" tabindex="7" rows="3" required="" required data-validation-required-message="What do you want to gain from this event?"></textarea>
                                                 
                                             </div>
                                         </div>
@@ -289,7 +296,7 @@
                                         <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field5">First Hackathon?</label>
                                             <div class="col-sm-9">
-                                                <input id="Field7" name="Field7" type="checkbox" tabindex="7" value="true">
+                                                <input id="Field7" name="Field7" type="checkbox" tabindex="8" value="true">
                                             </div>
                                         </div>
                                     </div>

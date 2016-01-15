@@ -9,7 +9,7 @@ $(function() {
             var firstHackathon;   
             $("#Field7").is(':checked') ? firstHackathon = true : firstHackathon = false;
             console.log(reader.readAsArrayBuffer($('#Field6').get(0).files[0]));
-            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "phone": $('#Field4').val(), "school": $('#Field5').val(), "resume": $('#Field6').val(), "first": firstHackathon}
+            var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "phone": $('#Field4').val(), "suggestions": $('#Field5').val(), "resume": $('#Field6').val(), "dietary": $('#Field8').val(), "first": firstHackathon}
 
             $.ajax({
                 url:    "./scripts/register.php",
