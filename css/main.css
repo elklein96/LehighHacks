@@ -192,13 +192,7 @@ p.copyright {
 .static-background{
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    width: 100%;
-    overflow: hidden;
-
 }
 
 #intro-row {
