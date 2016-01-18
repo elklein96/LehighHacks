@@ -23,6 +23,7 @@ $(function() {
                 $.ajax({
                     url:    "http://108.24.150.90/LehighHacks/register.php",
                     type:   "POST",
+                    crossDomain: true,
                     data:   {
                         data: data
                     },
