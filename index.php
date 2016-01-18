@@ -40,6 +40,9 @@
                     <li>
                         <a href="#schedule">Schedule</a>
                     </li>
+                     <li>
+                        <a href="#workshops">Workshops</a>
+                    </li>
                     <li>
                         <a href="#map">Map</a>
                     </li>
@@ -211,8 +214,31 @@
             </div>
         </section>
 
-        <section id="map">
+        <section id="workshops">
             <div class="content-section-a">
+                <div class="container">
+                    <h1 style="text-align:center">Workshops</h1>
+                    <hr class="heading-spacer">
+                    <p class="lead text-danger center">(Dates TBA!)</p>
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading">Wait. Workshops?</h3>
+                            <p class="lead">CREATE Club and ACM will be offering workshops before and during LehighHacks to help introduce hackers to the awesome technologies being donated by our corporate sponsors.</p>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading">What will I learn?</h3>
+                            <p class="lead">Workshops will cover an introduction to web development, IBM's Bluemix platform, and a bunch of other assorted technologies that are essential for a hackathon.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </section>
+
+        <section id="map">
+            <div class="content-section-b">
                 <div class="container">
                     <h1 style="text-align:center">Map</h1>
                     <hr class="heading-spacer">
@@ -223,7 +249,7 @@
         </section>
 
         <section id="judging">
-            <div class="content-section-b">
+            <div class="content-section-a">
                 <div class="container">
                     <h1 style="text-align:center">Judging</h1>
                     <hr class="heading-spacer">
@@ -256,20 +282,21 @@
         </section>
 
         <section id="sponsors">
-            <div class="content-section-a">
+            <div class="content-section-b">
                 <div class="container">
                     <h1 style="text-align:center">Sponsors</h1>
                     <hr class="heading-spacer">
                     <div id="sponsors-row" class="row">
-                        <a href="http://ibm.com" style="width:80%;" ><img id="ibm-logo" class="img-responsive" src="img/sponsors/ibm-bw.png" alt=""></a>
-                        <p class="lead center">Want to be a sponsor? <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks">Shoot us a line!</a></p>
+                        <a href="http://ibm.com" ><img id="ibm-logo" class="img-responsive sponsor" src="img/sponsors/ibm-bw.png" alt=""></a>
+                        <br>
+                        <p class="lead center">Want to be a sponsor? <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks%20Sponsor">Shoot us a line!</a></p>
                     </div>
                 </div>
             </div>
         </section>
 
         <section id="register">
-            <div class="content-section-b">
+            <div class="content-section-a">
                 <div class="container">
                     <div class="row">
                         <div class="col-lg-12 text-center">
@@ -375,6 +402,10 @@
                                 </li>
                                 <li>
                                     <a href="https://facebook.com/LehighHacks" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                </li>
+                                <li>
+                                    <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Contact Us
+                                    </span></a>
                                 </li>
                             </ul>
                         </div>

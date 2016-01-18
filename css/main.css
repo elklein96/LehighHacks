@@ -192,7 +192,7 @@ p.copyright {
 .static-background{
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-attachment: fixed;
-    background-size: cover;
+    background-size: 100% auto;
 }
 
 #intro-row {
@@ -202,4 +202,11 @@ p.copyright {
     -ms-filter: blur(20px);
     filter: blur(20px);
     opacity: 0.4;
+}
+
+.sponsor{
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
