@@ -189,10 +189,19 @@ p.copyright {
     }
 }
 
-.static-background{
-    background: url(../img/intro-bg.jpg) no-repeat center center;
-    background-attachment: fixed;
-    background-size: cover;
+@media(min-width:767px) {
+    .static-background{
+        background: url(../img/intro-bg.jpg) no-repeat center center;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+@media(max-width:767px) {
+    .static-background{
+        background: url(../img/intro-bg.jpg) no-repeat center center;
+        background-size: cover;
+    }
 }
 
 #intro-row {
