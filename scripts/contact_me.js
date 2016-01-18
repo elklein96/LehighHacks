@@ -25,7 +25,7 @@ $(function() {
                     type:   "POST",
                     dataType: 'jsonp',
                     data:   {
-                        data: data
+                        data: {"testing":"123"}
                     },
                     success: function(data) {
                         $('#success').empty();
