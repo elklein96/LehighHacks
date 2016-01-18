@@ -23,7 +23,6 @@ $(function() {
                 $.ajax({
                     url:    "http://108.24.150.90/LehighHacks/register.php",
                     type:   "POST",
-                    dataType: 'jsonp',
                     data:   {
                         data: {"testing":"123"}
                     },
