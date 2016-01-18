@@ -24,6 +24,7 @@ $(function() {
                     url:    "http://108.24.150.90/LehighHacks/register.php",
                     type:   "POST",
                     crossDomain: true,
+                    dataType: 'jsonp',
                     data:   {
                         data: data
                     },
