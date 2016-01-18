@@ -75,6 +75,11 @@ h6 {
     .intro-divider {
         width: 100%;
     }
+
+    .static-background{
+        background-image:none;
+        color: #502f14;
+    }
 }
 
 .network-name {
@@ -189,19 +194,10 @@ p.copyright {
     }
 }
 
-@media(min-width:767px) {
-    .static-background{
-        background: url(../img/intro-bg.jpg) no-repeat center center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
-}
-
-@media(max-width:767px) {
-    .static-background{
-        background: url(../img/intro-bg.jpg) no-repeat center center;
-        background-size: cover;
-    }
+.static-background{
+    background: url(../img/intro-bg.jpg) no-repeat center center;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 #intro-row {
