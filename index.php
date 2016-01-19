@@ -50,7 +50,7 @@
                         <a href="#judging">Judging</a>
                     </li>
                     <li>
-                        <a href="#sponsors">Sponsors</a>
+                        <a href="#partners">Partners</a>
                     </li>
                     <li>
                         <a href="#register">Register</a>
@@ -79,7 +79,7 @@
                                         <a href="#register" class="btn btn-default btn-lg"> <span class="network-name">Register</span></a>
                                     </li>
                                     <li>
-                                        <a href="#sponsors" class="btn btn-default btn-lg"> <span class="network-name">Sponsor</span></a>
+                                        <a href="#partners" class="btn btn-default btn-lg"> <span class="network-name">Sponsor</span></a>
                                     </li>
                                 </ul>
                             </div>
@@ -224,7 +224,7 @@
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">Wait. Workshops?</h3>
-                            <p class="lead">CREATE Club and ACM will be offering workshops before and during LehighHacks to help introduce hackers to the awesome technologies being donated by our corporate sponsors.</p>
+                            <p class="lead">CREATE Club and ACM will be offering workshops before and during LehighHacks to help introduce hackers to the awesome technologies being donated by our corporate partners.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
@@ -262,14 +262,14 @@
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">What can I win?</h3>
-                            <p class="lead">We are working with our sponsors to get some awesome prizes for LehighHacks. We'll announce a final prize list as we get closer to the event.</p>
+                            <p class="lead">We are working with our partners to get some awesome prizes for LehighHacks. We'll announce a final prize list as we get closer to the event.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">Who is judging?</h3>
-                            <p class="lead">Judges will be comprised of representatives from our corporate sponsors. This provides great opportunities for all teams to demonstrate their skills and develop their professional network.</p>
+                            <p class="lead">Judges will be comprised of representatives from our corporate partners. This provides great opportunities for all teams to demonstrate their skills and develop their professional network.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
@@ -281,15 +281,15 @@
             </div>
         </section>
 
-        <section id="sponsors">
+        <section id="partners">
             <div class="content-section-b">
                 <div class="container">
-                    <h1 style="text-align:center">Sponsors</h1>
+                    <h1 style="text-align:center">Partners</h1>
                     <hr class="heading-spacer">
                     <div id="sponsors-row" class="row">
                         <a href="http://ibm.com" ><img id="ibm-logo" class="img-responsive sponsor" src="img/sponsors/ibm-bw.png" alt=""></a>
                         <br>
-                        <p class="lead center">Want to be a sponsor? <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks%20Sponsor">Shoot us a line!</a></p>
+                        <p class="lead center">Want to be a partner? <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks%20Sponsor">Shoot us a line!</a></p>
                     </div>
                 </div>
             </div>
@@ -432,11 +432,19 @@
                             </li>
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
+                                <a href="#workshops">Workshops</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
                                 <a href="#map">Map</a>
                             </li>
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
-                                <a href="#sponsors">Sponsors</a>
+                                <a href="#judging">Judging</a>
+                            </li>
+                            <li class="footer-menu-divider">&sdot;</li>
+                            <li>
+                                <a href="#partners">Partners</a>
                             </li>
                             <li class="footer-menu-divider">&sdot;</li>
                             <li>
