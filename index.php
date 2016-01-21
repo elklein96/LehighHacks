@@ -287,9 +287,9 @@
                     <h1 style="text-align:center">Partners</h1>
                     <hr class="heading-spacer">
                     <div id="sponsors-row" class="row">
-                        <a href="http://ibm.com" ><img id="ibm-logo" class="img-responsive sponsor" src="img/sponsors/ibm-bw.png" alt=""></a>
+                        <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsor" src="img/sponsors/ibm-bw.png" alt=""></a>
                         <br>
-                        <p class="lead center">Want to be a partner? <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks%20Sponsor">Shoot us a line!</a></p>
+                        <p class="lead center">Want to be a partner? <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks%20Sponsor" target="_blank">Shoot us a line!</a></p>
                     </div>
                 </div>
             </div>
@@ -398,13 +398,13 @@
                         <div class="col-lg-6">
                             <ul class="list-inline banner-social-buttons">
                                 <li>
-                                    <a href="https://twitter.com/LehighHacks" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                                    <a href="https://twitter.com/LehighHacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                                 </li>
                                 <li>
-                                    <a href="https://facebook.com/LehighHacks" class="btn btn-default btn-lg"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
+                                    <a href="https://facebook.com/LehighHacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                                 </li>
                                 <li>
-                                    <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks" class="btn btn-default btn-lg"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Contact Us
+                                    <a href="mailto:lucreateclub@gmail.com?Subject=LehighHacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Contact Us
                                     </span></a>
                                 </li>
                             </ul>
