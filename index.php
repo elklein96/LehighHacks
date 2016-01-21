@@ -232,7 +232,6 @@
                             <p class="lead">Workshops will cover an introduction to web development, IBM's Bluemix platform, and a bunch of other assorted technologies that are essential for a hackathon.</p>
                         </div>
                     </div>
-                    
                 </div>
             </div>
         </section>
