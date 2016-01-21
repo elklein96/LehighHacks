@@ -4,7 +4,7 @@ var currentMovie = 0;
 
 $(document).ready(function () {
   $.ajax({
-    url:    "http://108.24.150.90/LehighHacks/img_aggregator.php",
+    url:    "http://108.24.150.90/LehighHacks/registrant_aggregator.php",
     type:   "POST",
     data:   {
         data:  "data"
