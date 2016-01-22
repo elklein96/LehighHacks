@@ -1,6 +1,6 @@
 var json = '';
 var preview = false;
-var currentMovie = 0;
+var currentRegistrant = 0;
 
 $(document).ready(function () {
   $.ajax({
