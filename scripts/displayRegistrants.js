@@ -20,7 +20,7 @@ $(document).ready(function () {
         json = $.parseJSON(data);
         for(var i=0; i<json.length; i++){
           console.log(json[i]);
-          $("#registrant-wrapper").append('<div class="pic" id="pic'+i+'"><img class="data" id="data'+i+'" src="'+json[i].pic+'"></div>');
+          $("#registrant-wrapper").append('<div class="registrant" id="registrant'+i+'"><img class="data" id="data'+i+'" src="'+json[i].registrant+'"></div>');
         }
       }
     }
