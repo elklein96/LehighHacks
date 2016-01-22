@@ -217,14 +217,10 @@ p.copyright {
 }
 
 .registrant{
-  height: 275px;
-  width: 160px;
   position: relative;
   display: inline;
   float: left;
-  margin-right: 2.5%;
-  margin-bottom: 1%;
-  padding-top: 1%;
+  margin: 2.5%;
 }
 
 .registrant:hover{
