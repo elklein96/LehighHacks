@@ -13,14 +13,14 @@ $(document).ready(function () {
       $('#loading').hide();
       
       if(data.indexOf("Error") > -1){
-        $('#registrant-wrapper').append('<p class="text-danger message"><br><br><br>'+data.replace('Error', '')+'</p>');
+        $('#record-wrapper').append('<p class="text-danger message"><br><br><br>'+data.replace('Error', '')+'</p>');
       }
       else{
         console.log("success");
         json = $.parseJSON(data);
         for(var i=0; i<json.length; i++){
           console.log(json[i]);
-          $("#registrant-wrapper").append('<div class="registrant" id="registrant'+i+'"><img class="data" id="data'+i+'" src="'+json[i].registrant+'"></div>');
+          $("#record-wrapper").append('<div class="registrant" id="registrant'+i+'"><img class="data" id="data'+i+'" src="'+json[i].registrant+'"></div>');
         }
       }
     }
