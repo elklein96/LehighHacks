@@ -28,10 +28,10 @@
 	          	<table class="table table-bordered table-hover table-striped center">
                     <thead>
                         <tr>
-                            <th class="center">First Name</th>
-                            <th class="center">Last Name</th>
-                            <th class="center">Email</th>
-                            <th class="center">Phone Number</th>
+                            <th class="center"><b>First Name</b></th>
+                            <th class="center"><b>Last Name</b></th>
+                            <th class="center"><b>Email</b></th>
+                            <th class="center"><b>Phone Number</b></th>
                         </tr>
                     </thead>
                     <tbody id="record-table">
