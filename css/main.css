@@ -225,7 +225,7 @@ p.copyright {
 
 .registrant:hover{
   border-style: solid;
-  border-width: 2px;
+  border-width: px;
   border-color: #303030;
   cursor: pointer;
 }

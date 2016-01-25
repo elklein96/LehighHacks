@@ -25,6 +25,18 @@
 	        	<div id="loading">
 	        		<p class="message" style="font-size:200%;"><br style="font-size:400%;"><i class="fa fa-cog fa-5x fa-spin"></i></p>
 	          	</div>
+	          	<table class="table table-bordered table-hover table-striped center">
+                    <thead>
+                        <tr>
+                            <th class="center">First Name</th>
+                            <th class="center">Last Name</th>
+                            <th class="center">Email</th>
+                            <th class="center">Phone Number</th>
+                        </tr>
+                    </thead>
+                    <tbody id="record-table">
+                    </tbody>
+                </table>
         	</div>
 	        <div id="footer"><br></div>
 	    </div>
