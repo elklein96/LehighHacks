@@ -27,7 +27,7 @@ $(document).ready(function () {
 });
 
 $(document).on('click', '.record', function () {
-  currentRecord = parseInt($(this).attr('id').replace('movie', ''));
+  currentRecord = parseInt($(this).attr('id').replace('record', ''));
 
   $("#firstname-label").val(json[currentRecord].firstName);
   $("#lastname-label").val(json[currentRecord].lastName);
