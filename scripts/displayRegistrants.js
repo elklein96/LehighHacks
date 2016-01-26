@@ -36,6 +36,6 @@ $(document).on('click', '.record', function () {
   $("#email-label").val(json[currentRecord].email);
   $("#phone-label").val(json[currentRecord].phone);
   $("#suggestions-label").val(json[currentRecord].suggestions);
-  $("#diet-label").val(json[currentRecord].diet);
+  $("#diet-label").val(json[currentRecord].dietary);
   $("#resume-frame").attr("src", json[currentRecord].resume);
 });
