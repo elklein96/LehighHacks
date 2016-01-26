@@ -19,7 +19,7 @@ $(document).ready(function () {
         json = $.parseJSON(data);
         for(var i=0; i<json.length; i++){
           console.log(json[i]);
-          $("#record-table").append('<tr class="record" id="record'+i+'" data-toggle="modal" class="clickable-row" data-href="#adminModal">'+'<th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th></tr>');
+          $("#record-table").append('<tr class="record" id="record'+i+'">'+'<th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th></tr>');
         }
       }
     }
@@ -28,6 +28,8 @@ $(document).ready(function () {
 
 $(document).on('click', '.record', function () {
   currentRecord = parseInt($(this).attr('id').replace('record', ''));
+
+  $('#adminModal').modal('toggle');
 
   $("#firstname-label").val(json[currentRecord].firstName);
   $("#lastname-label").val(json[currentRecord].lastName);
