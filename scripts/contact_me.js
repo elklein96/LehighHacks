@@ -10,11 +10,6 @@ $(function() {
             $("#Field7").is(':checked') ? firstHackathon = true : firstHackathon = false;
             reader.readAsDataURL(($("#Field6"))[0].files[0]);
 
-            /*reader.onloadend = function(e) {
-              var resumeData = reader.result;
-              console.log(resumeData);
-            }*/
-
             reader.onload = loaded;
 
             function loaded(evt) {  

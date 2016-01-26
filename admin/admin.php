@@ -54,12 +54,13 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        <p class="data-field-name">First Name: </p><input readonly id="firstname-label" class="form-control col-lg-8 data-field" placeholder="Title"></input>
-                        <p class="data-field-name">Last Name: </p><input readonly id="lastname-label" class="form-control col-lg-8 data-field" placeholder="Director"></input>
-                        <p class="data-field-name">Email: </p><input readonly id="email-label" class="form-control col-lg-8 data-field" placeholder="Year"></input>
-                        <p class="data-field-name">Phone: </p><input readonly id="phone-label" class="form-control col-lg-8 data-field" placeholder="Genre"></input>
-                        <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Enter URL to new poster"></input>
-                        <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Plot"></input>
+                        <p class="data-field-name">First Name: </p><input readonly id="firstname-label" class="form-control col-lg-8 data-field" placeholder="First Name"></input>
+                        <p class="data-field-name">Last Name: </p><input readonly id="lastname-label" class="form-control col-lg-8 data-field" placeholder="Last Name"></input>
+                        <p class="data-field-name">Email: </p><input readonly id="email-label" class="form-control col-lg-8 data-field" placeholder="Email"></input>
+                        <p class="data-field-name">Phone: </p><input readonly id="phone-label" class="form-control col-lg-8 data-field" placeholder="Phone"></input>
+                        <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
+                        <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
+                        <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0"></iframe>
                     </p>
                 </div>
                 <div class="modal-footer">

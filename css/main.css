@@ -216,16 +216,6 @@ p.copyright {
     margin-right: auto;
 }
 
-.registrant{
-  position: relative;
-  display: inline;
-  float: left;
-  margin: 5%;
-}
-
-.registrant:hover{
-  border-style: solid;
-  border-width: px;
-  border-color: #303030;
-  cursor: pointer;
+.data-field-name{
+    cursor: pointer;
 }

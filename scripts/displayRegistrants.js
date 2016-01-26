@@ -37,4 +37,5 @@ $(document).on('click', '.record', function () {
   $("#phone-label").val(json[currentRecord].phone);
   $("#suggestions-label").val(json[currentRecord].suggestions);
   $("#diet-label").val(json[currentRecord].diet);
+  $("resume-frame").attr("src", json[currentRecord].resume);
 });
