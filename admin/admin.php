@@ -42,7 +42,7 @@
 	    </div>
     </div>
 
-    <div class="modal fade" id="adminModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
+    <!--<div class="modal fade" id="adminModal" tabindex="-1" role="dialog" aria-labelledby="basicModal" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
@@ -65,7 +65,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
 
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="../scripts/displayRegistrants.js"></script>
