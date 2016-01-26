@@ -1,6 +1,5 @@
 var json = '';
-var preview = false;
-var currentRegistrant = 0;
+var currentRecord = 0;
 
 $(document).ready(function () {
   $.ajax({
@@ -21,9 +20,20 @@ $(document).ready(function () {
         for(var i=0; i<json.length; i++){
           console.log(json[i]);
           //$("#record-table").append('<div class="registrant" id="registrant'+i+'"><div class="data" id="data'+i+'"><h3 class="section-heading">'+json[i].firstName+' '+json[i].lastName+'</h3></div></div>');
-          $("#record-table").append('<tr>'+'<th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th></tr>');
+          $("#record-table").append('<tr class="record" id="record'+i+'">'+'<th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th></tr>');
         }
       }
     }
   });
+});
+
+$(document).on('click', '.record', function () {
+  currentRecord = parseInt($(this).attr('id').replace('movie', ''));
+
+  $("#firstname-label").val(json[currentMovie].firstName);
+  $("#lastname-label").val(json[currentMovie].lastName);
+  $("#email-label").val(json[currentMovie].email);
+  $("#phone-label").val(json[currentMovie].phone);
+  $("#suggestions-label").val(json[currentMovie].suggestions);
+  $("#diet-label").val(json[currentMovie].diet);
 });
