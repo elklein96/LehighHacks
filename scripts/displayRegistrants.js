@@ -27,7 +27,7 @@ $(document).ready(function () {
   });
 });
 
-$(document).on('click', '.record', function () {
+/*$(document).on('click', '.record', function () {
   currentRecord = parseInt($(this).attr('id').replace('movie', ''));
 
   $("#firstname-label").val(json[currentMovie].firstName);
@@ -36,4 +36,4 @@ $(document).on('click', '.record', function () {
   $("#phone-label").val(json[currentMovie].phone);
   $("#suggestions-label").val(json[currentMovie].suggestions);
   $("#diet-label").val(json[currentMovie].diet);
-});
+});*/
