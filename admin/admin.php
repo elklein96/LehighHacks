@@ -60,7 +60,7 @@
                         <p class="data-field-name">Phone: </p><input readonly id="phone-label" class="form-control col-lg-8 data-field" placeholder="Phone"></input>
                         <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
                         <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
-                        <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0"></iframe>
+                        <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" frameborder="0" style="border:0"></iframe>
                     </p>
                 </div>
                 <div class="modal-footer">
