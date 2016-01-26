@@ -58,8 +58,6 @@
                         <p class="data-field-name">Suggestions: </p><textarea readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Enter URL to new poster">
                         <p class="data-field-name">Dietary Restrictions: </p><textarea readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Plot">
                     </p>
-                    <button id='refresh-media-button' type='button' class='btn btn-warning' style='display:inline;'>Refresh Media</button>
-                    <button id='delete-button' type='button' class='btn btn-danger' style='display:inline;'>Delete Media</button>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
