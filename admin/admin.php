@@ -25,6 +25,7 @@
 	    <div id="page-wrapper">
 	        <br>
       		<div id="record-wrapper">
+                <h3>LehighHacks Registrants</h3>
 	        	<div id="loading">
 	        		<p class="message" style="font-size:200%;"><br style="font-size:400%;"><i class="fa fa-cog fa-5x fa-spin"></i></p>
 	          	</div>
