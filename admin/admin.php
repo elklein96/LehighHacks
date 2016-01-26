@@ -50,7 +50,7 @@
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                    <h4 id="modal-title" class="modal-title">Edit Media</h4>
+                    <h4 id="modal-title" class="modal-title">LehighHacks Hacker</h4>
                 </div>
                 <div class="modal-body">
                     <p>
@@ -60,7 +60,8 @@
                         <p class="data-field-name">Phone: </p><input readonly id="phone-label" class="form-control col-lg-8 data-field" placeholder="Phone"></input>
                         <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
                         <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
-                        <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" frameborder="0" style="border:0"></iframe>
+                        <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" frameborder="0" style="border:0" allowfullscreen></iframe>
+                        <button id="resumeDownloadButton" type="button" class="btn btn-default" style="display:inline">Download Resume</button>
                     </p>
                 </div>
                 <div class="modal-footer">

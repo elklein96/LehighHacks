@@ -39,3 +39,14 @@ $(document).on('click', '.record', function () {
   $("#diet-label").val(json[currentRecord].dietary);
   $("#resume-frame").attr("src", json[currentRecord].resume);
 });
+
+$(document).on('click', '#resumeDownloadButton', function () {
+  downloadURI(json[currentRecord].resume, json[currentRecord].firstName+"-"+json[currentRecord].lastName+"-Resume");
+});
+
+function downloadURI(uri, name) {
+  var link = document.createElement("a");
+  link.download = name;
+  link.href = uri;
+  link.click();
+}
