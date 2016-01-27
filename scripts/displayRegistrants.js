@@ -50,6 +50,11 @@ $(document).on('click', '.delete-record', function (e) {
   });
 });
 
+$(document).on('click', '#refresh-button', function () {
+  $("#record-table").empty();
+  loadRecords();
+});
+
 function loadRecords(){
   $.ajax({
     url:    "http://108.24.150.90/LehighHacks/registrant_aggregator.php",
