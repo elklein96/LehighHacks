@@ -95,7 +95,7 @@ function loadRecords(){
         json = $.parseJSON(data);
         for(var i=0; i<json.length; i++){
           console.log(json[i]);
-          $("#record-table").append('<tr class="record" id="record'+i+'">'+'<th class="center"><input type="checkbox" class="check-record" id="checkbox'+i+'"></th><th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th><th class="center">'+json[i].checkedIn+'</th></tr>');
+          $("#record-table").append('<tr class="record" id="record'+i+'">'+'<th class="center"><input type="checkbox" class="check-record" id="checkbox'+i+'"></th><th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th><th class="center">'+json[i].checkedIn.toString()+'</th></tr>');
         }
       }
     }
