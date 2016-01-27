@@ -44,6 +44,7 @@ $(document).on('click', '.delete-record', function (e) {
       },
       success: function(data) {
         $("#record-table").empty();
+        $('#loading').show();
         loadRecords();
       }
     });
