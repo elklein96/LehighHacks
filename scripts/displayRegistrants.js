@@ -30,10 +30,12 @@ function downloadURI(uri, name) {
   link.click();
 }
 
-$(document).on('click', '.delete-record', function () {
+$(document).on('click', '.delete-record', function (e) {
   currentRecord = parseInt($(this).attr('id').replace('radio', ''));
 
-  $(document).on('click', '.delete-button', function () {
+  e.stopPropagation();
+
+  $(document).on('click', '#delete-button', function () {
     $.ajax({
       type:   "POST",
       url:    "http://108.24.150.90/LehighHacks/register.php",
