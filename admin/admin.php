@@ -26,7 +26,7 @@
 	        <br>
       		<div id="record-wrapper">
                 <h3>LehighHacks Registrants</h3>
-                <p><button type="button" class="btn btn-default" href="#" id="refresh-button" style:"display:inline;">Refresh</button>  <button type="button" class="btn btn-danger" href="#" id="delete-button" style:"display:inline;">Delete Selected</button></p>
+                <p><button type="button" class="btn btn-primary" href="#" id="checkin-button" style:"display:inline;">Check In</button>  <button type="button" class="btn btn-default" href="#" id="refresh-button" style:"display:inline;">Refresh</button>  <button type="button" class="btn btn-danger" href="#" id="delete-button" style:"display:inline;">Delete Selected</button></p>
 	          	<table class="table table-bordered table-hover table-striped center">
                     <thead>
                         <tr>
@@ -35,6 +35,7 @@
                             <th class="center">Last Name</th>
                             <th class="center">Email</th>
                             <th class="center">Phone Number</th>
+                            <th class="center">Checked In?</th>
                         </tr>
                     </thead>
                     <tbody id="record-table">

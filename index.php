@@ -72,7 +72,7 @@
                             <div id="intro" class="intro-message">
                                 <h1>LehighHacks</h1>
                                 <h3>Lehigh University's Premiere Hackathon</h3>
-                                <h3><i class="fa fa-clock-o"></i> March 31st - April 1st, 2015</h3>
+                                <h3><i class="fa fa-clock-o"></i> March 31st - April 1st, 2016</h3>
                                 <hr class="intro-divider">
                                 <ul class="list-inline intro-social-buttons">
                                     <li>
@@ -110,7 +110,7 @@
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">How does this work?</h3>
-                            <p class="lead">LehighHacks is a 36 hour event from March 31st - April 1st, 2015 and will be held at The Mountaintop Campus. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
+                            <p class="lead">LehighHacks is a 36 hour event from March 31st - April 1st, 2016 and will be held at The Mountaintop Campus. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
