@@ -43,7 +43,7 @@ $(document).on('click', '.check-record', function (e) {
       type:   "POST",
       url:    "http://108.24.150.90/LehighHacks/register.php",
       data:   {
-          remove:  selectedRecords;
+          remove:  selectedRecords
       },
       success: function(data) {
         $("#record-table").empty();
