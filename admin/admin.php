@@ -26,7 +26,7 @@
 	        <br>
       		<div id="record-wrapper">
                 <h3>LehighHacks Registrants</h3>
-                <p><button type="button" class="btn btn-default" id="refresh-button" style:"display:inline;">Refresh</button>  <button type="button" class="btn btn-danger" id="delete-button" style:"display:inline;">Delete Selected</button></p>
+                <p><button type="button" class="btn btn-default" href="#" id="refresh-button" style:"display:inline;">Refresh</button>  <button type="button" class="btn btn-danger" href="#" id="delete-button" style:"display:inline;">Delete Selected</button></p>
 	          	<table class="table table-bordered table-hover table-striped center">
                     <thead>
                         <tr>
@@ -64,11 +64,11 @@
                         <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
                         <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
                         <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        <button id="resumeDownloadButton" type="button" class="btn btn-default" style="display:inline">Download Resume</button>
+                        <button id="resumeDownloadButton" type="button" class="btn btn-default" href="#" style="display:inline">Download Resume</button>
                     </p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" href="#" data-dismiss="modal">Close</button>
                 </div>
             </div>
         </div>
