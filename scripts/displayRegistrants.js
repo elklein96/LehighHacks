@@ -1,4 +1,5 @@
 var json = '';
+var selectedRecords = [];
 var currentRecord = 0;
 
 $(document).ready(function () {
@@ -30,22 +31,25 @@ function downloadURI(uri, name) {
   link.click();
 }
 
-$(document).on('click', '.delete-record', function (e) {
-  currentRecord = parseInt($(this).attr('id').replace('radio', ''));
+$(document).on('click', '.check-record', function (e) {
+  currentRecord = parseInt($(this).attr('id').replace('checkbox', ''));
 
   e.stopPropagation();
+
+  selectedRecords.push(json[currentRecord].email);
 
   $(document).on('click', '#delete-button', function () {
     $.ajax({
       type:   "POST",
       url:    "http://108.24.150.90/LehighHacks/register.php",
       data:   {
-          remove:  json[currentRecord].email
+          remove:  selectedRecords;
       },
       success: function(data) {
         $("#record-table").empty();
         $('#loading').show();
         loadRecords();
+        selectedRecords.length = 0;
       }
     });
   });
@@ -75,7 +79,7 @@ function loadRecords(){
         json = $.parseJSON(data);
         for(var i=0; i<json.length; i++){
           console.log(json[i]);
-          $("#record-table").append('<tr class="record" id="record'+i+'">'+'<th class="center"><input type="radio" class="delete-record" id="radio'+i+'"></th><th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th></tr>');
+          $("#record-table").append('<tr class="record" id="record'+i+'">'+'<th class="center"><input type="checkbox" class="check-record" id="checkbox'+i+'"></th><th class="center">'+json[i].firstName+'</th><th class="center">'+json[i].lastName+'</th><th class="center">'+json[i].email+'</th><th class="center">'+json[i].phone+'</th></tr>');
         }
       }
     }
