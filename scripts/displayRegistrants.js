@@ -43,6 +43,7 @@ $(document).on('click', '.delete-record', function (e) {
           remove:  json[currentRecord].email
       },
       success: function(data) {
+        $("#record-table").empty();
         loadRecords();
       }
     });

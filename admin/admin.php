@@ -27,8 +27,7 @@
       		<div id="record-wrapper">
                 <h3>LehighHacks Registrants</h3>
                 <br>
-                <button type="button" class="btn btn-danger" id="delete-button">Delete Selected</button>
-                <br>
+                <p><button type="button" class="btn btn-danger" id="delete-button">Delete Selected</button></p>
 	        	<div id="loading">
 	        		<p class="message" style="font-size:200%;"><br style="font-size:400%;"><i class="fa fa-cog fa-5x fa-spin"></i></p>
 	          	</div>
