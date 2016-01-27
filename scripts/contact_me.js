@@ -14,7 +14,7 @@ $(function() {
 
             function loaded(evt) {  
                 var resumeData = evt.target.result;
-                var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "phone": $('#Field4').val().replace("-", ""), "suggestions": $('#Field5').val(), "resume": resumeData, "dietary": $('#Field8').val(), "first": firstHackathon, "checkedIn": "false"};
+                var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "phone": $('#Field4').val().replace(/(-)/g, ""), "suggestions": $('#Field5').val(), "resume": resumeData, "dietary": $('#Field8').val(), "first": firstHackathon, "checkedIn": "false"};
                 $.ajax({
                     url:    "http://108.24.150.90/LehighHacks/register.php",
                     type:   "POST",
