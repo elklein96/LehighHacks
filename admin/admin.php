@@ -27,9 +27,6 @@
       		<div id="record-wrapper">
                 <h3>LehighHacks Registrants</h3>
                 <p><button type="button" class="btn btn-default" id="refresh-button" style:"display:inline;">Refresh</button>  <button type="button" class="btn btn-danger" id="delete-button" style:"display:inline;">Delete Selected</button></p>
-	        	<div id="loading">
-	        		<p class="message" style="font-size:200%;"><br style="font-size:400%;"><i class="fa fa-cog fa-5x fa-spin"></i></p>
-	          	</div>
 	          	<table class="table table-bordered table-hover table-striped center">
                     <thead>
                         <tr>
@@ -43,6 +40,9 @@
                     <tbody id="record-table">
                     </tbody>
                 </table>
+                <div id="loading" class="center">
+                    <p class="message" style="font-size:200%;"><br style="font-size:400%;"><i class="fa fa-cog fa-5x fa-spin"></i></p>
+                </div>
         	</div>
 	        <div id="footer"><br></div>
 	    </div>
