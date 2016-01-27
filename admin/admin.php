@@ -26,12 +26,15 @@
 	        <br>
       		<div id="record-wrapper">
                 <h3>LehighHacks Registrants</h3>
+                <br>
+                <button type="button" class="btn btn-danger" id="delete-button">Delete Selected</button>
 	        	<div id="loading">
 	        		<p class="message" style="font-size:200%;"><br style="font-size:400%;"><i class="fa fa-cog fa-5x fa-spin"></i></p>
 	          	</div>
 	          	<table class="table table-bordered table-hover table-striped center">
                     <thead>
                         <tr>
+                            <th class="center"></th>
                             <th class="center">First Name</th>
                             <th class="center">Last Name</th>
                             <th class="center">Email</th>
