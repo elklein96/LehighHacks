@@ -53,6 +53,7 @@ $(document).on('click', '.delete-record', function (e) {
 
 $(document).on('click', '#refresh-button', function () {
   $("#record-table").empty();
+  $('#loading').show();
   loadRecords();
 });
 
