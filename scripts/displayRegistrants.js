@@ -48,8 +48,8 @@ $(document).on('click', '.check-record', function (e) {
       success: function(data) {
         $("#record-table").empty();
         $('#loading').show();
-        loadRecords();
         selectedRecords.length = 0;
+        loadRecords();
       }
     });
   });
@@ -64,8 +64,8 @@ $(document).on('click', '.check-record', function (e) {
       success: function(data) {
         $("#record-table").empty();
         $('#loading').show();
-        loadRecords();
         selectedRecords.length = 0;
+        loadRecords();
       }
     });
   });
