@@ -464,7 +464,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="scripts/classie.min.js"></script>
+    <script src="scripts/classie.js"></script>
     <script src="scripts/cbpAnimatedHeader.min.js"></script>
     <script src="scripts/contact_me.js"></script>
     <script src="scripts/jqBootstrapValidation.min.js"></script>
