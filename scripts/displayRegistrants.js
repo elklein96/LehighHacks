@@ -77,7 +77,7 @@ $(document).on('click', '#refresh-button', function () {
   loadRecords();
 });
 
-$('#search-bar').keyup(function (event) {
+$('#search-bar').on('input', function (event) {
   var search = $("#search-bar").val();
 
   console.log(search);
