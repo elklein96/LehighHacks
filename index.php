@@ -242,7 +242,7 @@
                     <h1 style="text-align:center">Map</h1>
                     <hr class="heading-spacer">
                     
-                    <iframe width="100%" height="450" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.283007352866!2d-75.36192154958353!3d40.601579179242606!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43e1430c143a7%3A0xa1f258e8dd222173!2sLehigh+University%2C+Iacocca+Hall!5e0!3m2!1sen!2sus!4v1452870783793" allowfullscreen></iframe>
+                    <iframe width="100%" height="450" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.2596921243216!2d-75.3623578852574!3d40.602093652270035!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43e15cb98e1ad%3A0xca9aa0db94ce9333!2s113+Research+Dr%2C+Bethlehem%2C+PA+18015!5e0!3m2!1sen!2sus!4v1454015676147" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
