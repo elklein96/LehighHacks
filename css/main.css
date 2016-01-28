@@ -194,6 +194,13 @@ p.copyright {
     }
 }
 
+@media(max-width:767px) {
+    .static-background{
+        background: url(../img/intro-bg.jpg) no-repeat center center;
+        background-size: cover;
+    }
+}
+
 .static-background{
     background: url(../img/intro-bg.jpg) no-repeat center center;
     background-attachment: fixed;
