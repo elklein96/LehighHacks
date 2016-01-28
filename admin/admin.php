@@ -25,7 +25,7 @@
 	    <div id="page-wrapper">
 	        <br>
       		<div id="record-wrapper">
-                <h3>LehighHacks Registrants</h3>
+                <h3 id="record-title">LehighHacks Registrants<span style="display:inline;" id="record-count"></span></h3>
                 <p>
                     <div class="control-group">
                         <div class="controls form-inline">
