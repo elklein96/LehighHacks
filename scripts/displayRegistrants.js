@@ -80,6 +80,8 @@ $(document).on('click', '#refresh-button', function () {
 $(document).on('keypress', '#search-bar', function (event) {
   var search = $("#search-bar").val();
 
+  console.log(search);
+
   $("#record-table").empty();
   $('#loading').show();
 
