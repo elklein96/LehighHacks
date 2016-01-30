@@ -74,6 +74,8 @@
                         <p class="data-field-name">Phone: </p><input readonly id="phone-label" class="form-control col-lg-8 data-field" placeholder="Phone"></input>
                         <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
                         <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
+                        <p class="data-field-name">Major: </p><input readonly id="major" class="form-control col-lg-8 data-field" placeholder="Major"></input>
+                        <p class="data-field-name">Referral: </p><input readonly id="referral" class="form-control col-lg-8 data-field" placeholder="How They Heard About LehighHacks"></input>
                         <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" frameborder="0" style="border:0" allowfullscreen></iframe>
                         <button id="resumeDownloadButton" type="button" class="btn btn-default" href="#" style="display:inline">Download Resume</button>
                     </p>

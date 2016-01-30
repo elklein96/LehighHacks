@@ -335,6 +335,13 @@
                                         </div>
 
                                         <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Major</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field9" name="Field9" type="text" class="form-control" placeholder="Computer Engineering" value="" tabindex="9" required="" required data-validation-required-message="What's your major?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field4">Resume</label>
                                             <div class="col-sm-9">
                                                 <input id="Field6" name="Field6" type="file" class="form-control" size="12" tabindex="5" required data-validation-required-message="Submit your resume.">
@@ -352,7 +359,13 @@
                                             <label class="col-sm-3 control-label" for="Field4">Goals</label>
                                             <div class="col-sm-9">
                                                 <textarea id="Field5" name="Field5" type="text" class="form-control" placeholder="I want to explore IoT and hardware hacks" value="" size="14" tabindex="7" rows="3" required="" required data-validation-required-message="What do you want to gain from this event?"></textarea>
-                                                
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">How Did You Hear About Us?</label>
+                                            <div class="col-sm-9">
+                                                <textarea id="Field10" name="Field10" type="text" class="form-control" placeholder="I am a member of CREATE Club" value="" size="14" tabindex="10" rows="3" required="" required data-validation-required-message="Where did you hear about LehighHacks?"></textarea>
                                             </div>
                                         </div>
 

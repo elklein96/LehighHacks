@@ -17,6 +17,8 @@ $(document).on('click', '.record', function () {
   $("#phone-label").val(json[currentRecord].phone);
   $("#suggestions-label").val(json[currentRecord].suggestions);
   $("#diet-label").val(json[currentRecord].dietary);
+  $("#major").val(json[currentRecord].major);
+  $("#referral").val(json[currentRecord].referral);
   $("#resume-frame").attr("src", json[currentRecord].resume);
 });
 
