@@ -217,11 +217,20 @@ p.copyright {
     opacity: 0.4;
 }
 
-.sponsor{
-    width:80%;
+.sponsorBig{
+    width:75%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 2.5%;
+}
+
+.sponsorMedium{
+    width:60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2.5%;
 }
 
 .record{
