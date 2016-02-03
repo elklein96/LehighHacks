@@ -290,7 +290,9 @@
                         <br>
                         <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo-bw.png" alt=""></a>
                         <br>
-                        <p class="lead center">Want to be a partner? <a href="mailto:create.lehigh@gmail.com?Subject=LehighHacks%20Sponsor" target="_blank">Shoot us a line!</a></p>
+                        <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
+                        <br>
+                        <p class="lead center">Want to be a partner? <a href="/img/LehighHacksSponsor_2016.pdf" target="_blank">Check out these opportunities!</a></p>
                     </div>
                 </div>
             </div>
