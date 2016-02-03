@@ -45,7 +45,7 @@
                             <th class="center">Last Name</th>
                             <th class="center">Email</th>
                             <th class="center">Hardware</th>
-                            <th class="center">Checked In?</th>
+                            <th class="center">Checked out Hardware?</th>
                         </tr>
                     </thead>
                     <tbody id="record-table">
@@ -68,16 +68,12 @@
                 </div>
                 <div class="modal-body">
                     <p>
-                        <p class="data-field-name">First Name: </p><input readonly id="firstname-label" class="form-control col-lg-8 data-field" placeholder="First Name"></input>
-                        <p class="data-field-name">Last Name: </p><input readonly id="lastname-label" class="form-control col-lg-8 data-field" placeholder="Last Name"></input>
-                        <p class="data-field-name">Email: </p><input readonly id="email-label" class="form-control col-lg-8 data-field" placeholder="Email"></input>
-                        <p class="data-field-name">Phone: </p><input readonly id="phone-label" class="form-control col-lg-8 data-field" placeholder="Phone"></input>
-                        <p class="data-field-name">Suggestions: </p><input readonly id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
-                        <p class="data-field-name">Dietary Restrictions: </p><input readonly id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
-                        <p class="data-field-name">Major: </p><input readonly id="major" class="form-control col-lg-8 data-field" placeholder="Major"></input>
-                        <p class="data-field-name">Referral: </p><input readonly id="referral" class="form-control col-lg-8 data-field" placeholder="How They Heard About LehighHacks"></input>
-                        <p class="data-field-name">Resume: </p><iframe src="" id="resume-frame" frameborder="0" style="border:0" allowfullscreen></iframe>
-                        <button id="resumeDownloadButton" type="button" class="btn btn-default" href="#" style="display:inline">Download Resume</button>
+                        <p class="data-field-name">First Name: </p><input id="firstname-label" class="form-control col-lg-8 data-field" placeholder="First Name"></input>
+                        <p class="data-field-name">Last Name: </p><input id="lastname-label" class="form-control col-lg-8 data-field" placeholder="Last Name"></input>
+                        <p class="data-field-name">Email: </p><input id="email-label" class="form-control col-lg-8 data-field" placeholder="Email"></input>
+                        <p class="data-field-name">Phone: </p><input id="phone-label" class="form-control col-lg-8 data-field" placeholder="Phone"></input>
+                        <p class="data-field-name">Suggestions: </p><input id="suggestions-label" class="form-control col-lg-8 data-field" placeholder="Suggestions"></input>
+                        <p class="data-field-name">Dietary Restrictions: </p><input id="diet-label" class="form-control col-lg-8 data-field" placeholder="Dietary Restrictions"></input>
                     </p>
                 </div>
                 <div class="modal-footer">
