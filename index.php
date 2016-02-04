@@ -288,6 +288,8 @@
                     <div id="sponsors-row" class="row">
                         <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsorBig" src="img/sponsors/ibm-bw.png" alt=""></a>
                         <br>
+                        <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo-bw.png" alt=""></a>
+                        <br>
                         <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo-bw.png" alt=""></a>
                         <br>
                         <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
@@ -478,7 +480,7 @@
         </footer>
     </div>
 
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.2/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="scripts/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="scripts/classie.js"></script>
