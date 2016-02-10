@@ -89,7 +89,7 @@
             </div>
         </header>
 
-    	<section id="about">
+        <section id="about">
             <div class="content-section-a">
                 <div class="container">
                     <h1 style="text-align:center">About</h1>
@@ -288,13 +288,22 @@
                     <div id="sponsors-row" class="row">
                         <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsorBig" src="img/sponsors/ibm-bw.png" alt=""></a>
                         <br>
-                        <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo.png" alt=""></a>
-                        <br>
-                        <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo-bw.png" alt=""></a>
-                        <br>
-                        <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
-                        <br>
-                        <p class="lead center">Want to be a partner? <a href="/img/LehighHacksSponsor_2016.pdf" target="_blank">Check out these opportunities!</a></p>
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo.png" alt=""></a>
+                                <br>
+                                <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
+                                <br>
+                                
+                            </div>
+                            <div class="col-sm-6">
+                                <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo-bw.png" alt=""></a>
+                                <br>
+                                <a href="http://cbe.lehigh.edu/msaf" target="_blank"><img id="msaf-logo" class="img-responsive sponsorMedium" src="img/sponsors/msaf.png" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
+                            <p class="lead center">Want to be a partner? <a href="/img/LehighHacksSponsor_2016.pdf" target="_blank">Check out these opportunities!</a></p>
                     </div>
                 </div>
             </div>
@@ -406,7 +415,7 @@
             </div>
         </section>
 
-    	<section id="more">
+        <section id="more">
             <div class="banner">
                 <div class="container">
                     <div class="row">
