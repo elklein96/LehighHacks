@@ -219,17 +219,28 @@
                 <div class="container">
                     <h1 style="text-align:center">Workshops</h1>
                     <hr class="heading-spacer">
-                    <p class="lead text-danger center">(Dates TBA!)</p>
                     <div class="row">
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
-                            <h3 class="section-heading">Wait. Workshops?</h3>
-                            <p class="lead">CREATE Club and ACM will be offering workshops before and during LehighHacks to help introduce hackers to the awesome technologies being donated by our corporate partners.</p>
+                            <h3 class="section-heading">Tuesday, February 16th</h3>
+                            <p class="lead">LehighHacks Kick Off Event! Come out to Packard 101 at 5pm to meet representatives from IBM. We'll be learning about an introduction to IBM's Bluemix platform and Watson. No coding experience is necessary!</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
-                            <h3 class="section-heading">What will I learn?</h3>
-                            <p class="lead">Workshops will cover an introduction to web development, IBM's Bluemix platform, and a bunch of other assorted technologies that are essential for a hackathon.</p>
+                            <h3 class="section-heading">Wednesday, February 24th</h3>
+                            <p class="lead">Come out to Packard 466 at 4pm for a technical workshop that will cover the basics of web development, Git, and other technologies that are essential to succeeding at hackathons.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading">Wednesday, March 9th</h3>
+                            <p class="lead">Be there for our Blue Sky Event in Neville 1 at 5pm. Representatives from our corporate partners will be present to help us brainstrom solutions to various problems their respective companies face in industry. We'll form ideas to tackle during the hackathon.</p>
+                        </div>
+                        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading">Wednesday, March 23rd</h3>
+                            <p class="lead">Our final workshop will cover various technologies offered to us by our corporate partners. We'll make sure that everyone has the tools to succeed at LehighHacks!</p>
                         </div>
                     </div>
                 </div>
