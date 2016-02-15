@@ -301,7 +301,7 @@
                         <br>
                         <div class="row">
                             <div class="col-sm-6">
-                                <a href="http://giving.lehigh.edu/partners" target="_blank"><img id="oee-logo" class="img-responsive sponsorMedium" src="img/sponsors/OEE-logo.png" alt=""></a>
+                                <a href="http://giving.lehigh.edu/partners" target="_blank"><img id="oee-logo" class="img-responsive sponsorMedium" src="img/sponsors/oee-logo.png" alt=""></a>
                                 <br>
                                 <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo.png" alt=""></a>
                                 <br>
