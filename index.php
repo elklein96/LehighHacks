@@ -303,7 +303,7 @@
                             <div class="col-sm-6">
                                 <a href="http://giving.lehigh.edu/partners" target="_blank"><img id="oee-logo" class="img-responsive sponsorMedium" src="img/sponsors/oee-logo.png" alt=""></a>
                                 <br>
-                                <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo.png" alt=""></a>
+                                <a href="http://wellsfargo.com/" target="_blank"><img id="wells-logo" class="img-responsive sponsorMedium" src="img/sponsors/wellsfargo-logo.jpg" alt=""></a>
                                 <br>
                             </div>
 
@@ -311,6 +311,11 @@
                                 <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo.png" alt=""></a>
                                 <br>
                                 <a href="http://cbe.lehigh.edu/msaf" target="_blank"><img id="msaf-logo" class="img-responsive sponsorMedium" src="img/sponsors/MSAF-logo.png" alt=""></a>
+                                <br>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo.png" alt=""></a>
                                 <br>
                             </div>
 
