@@ -237,11 +237,23 @@ p.copyright {
     cursor: pointer;
 }
 
-#microsoft-logo{
+#msaf-logo{
     margin-top: 7%;
+}
+
+#qualcomm-logo{
+    margin-top: 10%;
+}
+
+/*#microsoft-logo{
+    margin-top: 7%;
+}
+
+#qualcomm-logo{
+    margin-top: 5%;
 }
 
 #oee-logo{
     margin-top: 5%;
     margin-bottom: 8%;
-}
+}*/

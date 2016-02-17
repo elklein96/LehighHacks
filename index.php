@@ -299,29 +299,54 @@
                     <div id="sponsors-row" class="row">
                         <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsorBig" src="img/sponsors/ibm-bw.png" alt=""></a>
                         <br>
+                        
+
                         <div class="row">
-                            <div class="col-sm-6">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
                                 <a href="http://giving.lehigh.edu/partners" target="_blank"><img id="oee-logo" class="img-responsive sponsorMedium" src="img/sponsors/oee-logo.png" alt=""></a>
                                 <br>
-                                <a href="http://wellsfargo.com/" target="_blank"><img id="wells-logo" class="img-responsive sponsorMedium" src="img/sponsors/wellsfargo-logo.jpg" alt=""></a>
-                                <br>
                             </div>
-
-                            <div class="col-sm-6">
-                                <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo.png" alt=""></a>
-                                <br>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
                                 <a href="http://cbe.lehigh.edu/msaf" target="_blank"><img id="msaf-logo" class="img-responsive sponsorMedium" src="img/sponsors/MSAF-logo.png" alt=""></a>
                                 <br>
                             </div>
+                        </div>
 
-                            <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
                                 <a href="http://microsoft.com" target="_blank"><img id="microsoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/microsoft-logo.png" alt=""></a>
                                 <br>
                             </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo.png" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
 
-                            <div class="col-sm-6">
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://qualcomm.com/" target="_blank"><img id="qualcomm-logo" class="img-responsive sponsorMedium" src="img/sponsors/qualcomm-logo.png" alt=""></a>
+                                <br>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://wellsfargo.com/" target="_blank"><img id="wells-logo" class="img-responsive sponsorMedium" src="img/sponsors/wellsfargo-logo.jpg" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
                                 <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
                             </div>
                         </div>
                             <p class="lead center">Want to be a partner? <a href="/img/LehighHacksSponsor_2016.pdf" target="_blank">Check out these opportunities!</a></p>
