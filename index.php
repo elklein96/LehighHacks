@@ -447,7 +447,7 @@
                                     <a href="https://facebook.com/LehighHacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-facebook fa-fw"></i> <span class="network-name">Facebook</span></a>
                                 </li>
                                 <li>
-                                    <a href="mailto:create.lehigh@gmail.com?Subject=LehighHacks" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Contact Us
+                                    <a href="mailto:create.lehigh@gmail.com?Subject=LehighHacks%20Sponsor" class="btn btn-default btn-lg" target="_blank"><i class="fa fa-envelope fa-fw"></i> <span class="network-name">Contact Us
                                     </span></a>
                                 </li>
                             </ul>
