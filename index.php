@@ -122,7 +122,7 @@
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">Who can sign up?</h3>
-                            <p class="lead">Any student enrolled in a college or university can join us! All Lehigh students who are interested are guaranteed entry.</p>
+                            <p class="lead">Any student enrolled in a college or university can join us! All Lehigh students who are interested are guaranteed entry. No travel reimbursements will be provided.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
