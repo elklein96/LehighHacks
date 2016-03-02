@@ -237,6 +237,11 @@ p.copyright {
     cursor: pointer;
 }
 
+#oee-logo{
+    padding-top: 5%;
+    margin-bottom: -5%;
+}
+
 #msaf-logo{
     margin-top: 7%;
 }

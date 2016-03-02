@@ -297,10 +297,19 @@
                     <h1 style="text-align:center">Partners</h1>
                     <hr class="heading-spacer">
                     <div id="sponsors-row" class="row">
-                        <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsorBig" src="img/sponsors/ibm-bw.png" alt=""></a>
-                        <br>
                         
-
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsorMedium" src="img/sponsors/ibm-bw.png" alt=""></a>
+                                <br>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://osisoft.com" target="_blank"><img id="osisoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/osisoft-logo.png" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
@@ -357,11 +366,6 @@
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
                                 <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
-                                <br>
-                            </div>
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                                <div class="clearfix"></div>
-                                <a href="http://osisoft.com" target="_blank"><img id="osisoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/osisoft-logo.png" alt=""></a>
                                 <br>
                             </div>
                         </div>
