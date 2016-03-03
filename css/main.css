@@ -255,7 +255,7 @@ p.copyright {
 }
 
 #create-logo{
-    margin-top: 5%;
+    margin-top: 10%;
 }
 
 #wells-logo{
@@ -264,4 +264,8 @@ p.copyright {
 
 #baker-logo{
     margin-top: 5%;
+}
+
+#intel-logo{
+    width: 65%;
 }

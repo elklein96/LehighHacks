@@ -326,7 +326,7 @@
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://knowledgent.com" target="_blank"><img id="knowledgent-logo" class="img-responsive sponsorMedium" src="img/sponsors/knowledgent-logo.jpg" alt=""></a>
+                                <a href="http://knowledgent.com" target="_blank"><img id="knowledgent-logo" class="img-responsive sponsorMedium" src="img/sponsors/knowledgent-logo.jpeg" alt=""></a>
                                 <br>
                             </div>
                             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
@@ -363,7 +363,12 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-lg-5 col-sm-6">
+                        <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://intel.com" target="_blank"><img id="intel-logo" class="img-responsive sponsorMedium" src="img/sponsors/intel-logo.png" alt=""></a>
+                                <br>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
                                 <a href="http://createlehigh.me/" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
