@@ -377,12 +377,12 @@
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://www.lehigh.edu/~inadvser/" target="_blank"><img id="advancement-logo" class="img-responsive sponsorMedium" src="img/sponsors/advancement-logo.jpg" alt=""></a>
+                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
                             </div>
                             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
+                                <a href="http://www.lehigh.edu/~inadvser/" target="_blank"><img id="advancement-logo" class="img-responsive sponsorMedium" src="img/sponsors/advancement-logo.jpg" alt=""></a>
                                 <br>
                             </div>
                         </div>
