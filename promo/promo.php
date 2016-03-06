@@ -64,31 +64,6 @@
     </nav>
 
     <div class="static-background">
-        <header>
-            <div class="intro-header">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-lg-12">
-                            <div id="intro" class="intro-message">
-                                <h1>LehighHacks</h1>
-                                <h3>Lehigh University's Premiere Hackathon</h3>
-                                <h3><i class="fa fa-clock-o"></i> March 31st - April 1st, 2016</h3>
-                                <hr class="intro-divider">
-                                <ul class="list-inline intro-social-buttons">
-                                    <li>
-                                        <a href="#register" class="btn btn-default btn-lg"> <span class="network-name">Register</span></a>
-                                    </li>
-                                    <li>
-                                        <a href="#partners" class="btn btn-default btn-lg"> <span class="network-name">Sponsor</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-
         <section id="register">
             <div class="content-section-a">
                 <div class="container">
