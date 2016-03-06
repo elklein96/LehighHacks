@@ -10,9 +10,9 @@
     <meta name="author" content="">
 
     <title>LehighHacks</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/main.css" rel="stylesheet">
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/main.css" rel="stylesheet">
+    <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
@@ -272,14 +272,14 @@
     </div>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="scripts/bootstrap.min.js"></script>
+    <script src="../scripts/bootstrap.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="scripts/classie.js"></script>
-    <script src="scripts/cbpAnimatedHeader.js"></script>
-    <script src="scripts/contact_me.js"></script>
-    <script src="scripts/jqBootstrapValidation.min.js"></script>
+    <script src="../scripts/classie.js"></script>
+    <script src="../scripts/cbpAnimatedHeader.js"></script>
+    <script src="../scripts/contact_me.js"></script>
+    <script src="../scripts/jqBootstrapValidation.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-    <script src="scripts/main.min.js"></script>
+    <script src="../scripts/main.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
