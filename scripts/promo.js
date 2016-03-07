@@ -2,7 +2,6 @@ $(document).on("click", "#submitButton", function(){
     var firstHackathon; 
     $("#Field7").is(':checked') ? firstHackathon = true : firstHackathon = false;
     
-    var resumeData = evt.target.result;
     var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "phone": $('#Field4').val().replace(/(-)/g, ""), "suggestions": $('#Field5').val(), "resume": "PROMO", "dietary": $('#Field8').val(), "first": firstHackathon, "major": $('#Field9').val(), "referral": "Front lawn coffee promo", "checkedIn": "false"};
     $.ajax({
         url:    "http://108.24.150.90/LehighHacks/register.php",
