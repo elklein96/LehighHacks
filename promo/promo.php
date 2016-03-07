@@ -112,13 +112,6 @@
                                         </div>
 
                                         <div class="form-group">
-                                            <label class="col-sm-3 control-label" for="Field4">Resume</label>
-                                            <div class="col-sm-9">
-                                                <input id="Field6" name="Field6" type="file" class="form-control" size="12" tabindex="6" required data-validation-required-message="Submit your resume.">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
                                             <label class="col-sm-3 control-label" for="Field4">Dietary Restrictions</label>
                                             <div class="col-sm-9">
                                                 <input id="Field8" name="Field8" type="text" class="form-control" placeholder="Vegetarian, Kosher, N/A, etc..." value="" tabindex="7" required="" required data-validation-required-message="Do you have food restrictions?">
@@ -129,13 +122,6 @@
                                             <label class="col-sm-3 control-label" for="Field4">Goals</label>
                                             <div class="col-sm-9">
                                                 <textarea id="Field5" name="Field5" type="text" class="form-control" placeholder="I want to explore IoT and hardware hacks" value="" size="14" tabindex="8" rows="3" required="" required data-validation-required-message="What do you want to gain from this event?"></textarea>
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group">
-                                            <label class="col-sm-3 control-label" for="Field4">How Did You Hear About Us?</label>
-                                            <div class="col-sm-9">
-                                                <textarea id="Field10" name="Field10" type="text" class="form-control" placeholder="I am a member of CREATE Club" value="" size="14" tabindex="9" rows="3" required="" required data-validation-required-message="Where did you hear about LehighHacks?"></textarea>
                                             </div>
                                         </div>
 
@@ -251,7 +237,7 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <script src="../scripts/classie.js"></script>
     <script src="../scripts/cbpAnimatedHeader.js"></script>
-    <script src="../scripts/contact_me.js"></script>
+    <script src="../scripts/promo.js"></script>
     <script src="../scripts/jqBootstrapValidation.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
     <script src="../scripts/main.min.js"></script>
