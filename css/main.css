@@ -271,9 +271,14 @@ p.copyright {
 }
 
 #reuters-logo{
-    margin-top: 7%;
+    margin-top: 5%;
 }
 
 #advancement-logo{
     margin-top: -7%;
+    width: 64%;
+}
+
+#miac-logo{
+    margin-top: 5%;
 }
