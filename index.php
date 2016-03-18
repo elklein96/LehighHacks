@@ -394,6 +394,11 @@
                                 <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
                             </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://lehigh.edu/~inengage/" target="_blank"><img id="cce-logo" class="img-responsive sponsorMedium" src="img/sponsors/cce-logo.png" alt=""></a>
+                                <br>
+                            </div>
                         </div>
 
                         
