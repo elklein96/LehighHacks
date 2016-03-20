@@ -8,6 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="LehighHacks">
     <meta name="author" content="">
+    <meta property="og:image" content="http://lehighhacks.com/img/logo.png"/>
+    <meta name="twitter:image" content="http://lehighhacks.com/img/logo.png">
 
     <title>LehighHacks</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
