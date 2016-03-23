@@ -135,7 +135,7 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/cce-logo.png"><a href="https://software.intel.com/en-us/iot/library/galileo-getting-started" target="blank">Center for Community Engagement Challenge</a></p>
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/cce-logo.png"><a href="../img/challenges/SocialAppsChallenge-4Blocks.docx" target="blank">Center for Community Engagement Challenge</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/lehigh-shield.png"><a href="https://github.com/mfs409/golang-webapp-tutorial" target="blank">Professor Spear's Go Web Tutorial</a></p>
                     </div>
                 </div>
