@@ -99,6 +99,7 @@
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/intel-logo.png"><a href="https://software.intel.com/en-us/iot/library/edison-getting-started" target="blank">Getting Started With Intel Edison</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/intel-logo.png"><a href="https://software.intel.com/en-us/iot/library/galileo-getting-started" target="blank">Getting Started With Intel Galileo</a></p>
                         <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/qualcomm-logo.png"><a href="http://www.instructables.com/id/Getting-Started-IFC6410/" target="blank">Getting Started With IFC6410+</a></p>
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/wellsfargo-logo.jpg"><a href="../img/challenges/SocialAppsChallenge-WellsFargo.docx" target="blank">Wells Fargo Challenge</a></p>
                     </div>
                 </div>
             </div>
@@ -134,7 +135,6 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/wellsfargo-logo.jpg"><a href="../img/challenges/SocialAppsChallenge-WellsFargo.docx" target="blank">Wells Fargo Challenge</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/cce-logo.png"><a href="https://software.intel.com/en-us/iot/library/galileo-getting-started" target="blank">Center for Community Engagement Challenge</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/lehigh-shield.png"><a href="https://github.com/mfs409/golang-webapp-tutorial" target="blank">Professor Spear's Go Web Tutorial</a></p>
                     </div>
