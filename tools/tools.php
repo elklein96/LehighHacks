@@ -100,7 +100,7 @@
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/intel-logo.png"><a href="https://software.intel.com/en-us/iot/library/galileo-getting-started" target="blank">Getting Started With Intel Galileo</a></p>
                         <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/qualcomm-logo.png"><a href="http://www.instructables.com/id/Getting-Started-IFC6410/" target="blank">Getting Started With IFC6410+</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/wellsfargo-logo.jpg"><a href="../img/challenges/SocialAppsChallenge-WellsFargo.docx" target="blank">Wells Fargo Challenge</a></p>
-                        <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/lutron-logo.jpg"><a href="../img/challenges/SmartEnvironmentsChallenge-Lutron.docx" target="blank">Wells Fargo Challenge</a></p>
+                        <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/lutron-logo.png"><a href="../img/challenges/SmartEnvironmentsChallenge-Lutron.docx" target="blank">Lutron Challenge</a></p>
                     </div>
                 </div>
             </div>
