@@ -421,13 +421,13 @@
                         </div>
                     </div>
 
-                    <div class="row hidden">
+                    <div class="row">
                         <div class="col-lg-12 text-center">
                             <p class="lead">Registration is closed for Spring 2016, but check back for more information about Fall 2016 registration!</p>
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row hidden">
                         <form id="form1" name="form1" class="form-horizontal" accept-charset="UTF-8" action="javascript:void(0);" enctype="multipart/form-data">
 
                             <div class="col-md-8 col-md-offset-2">
