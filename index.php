@@ -141,7 +141,6 @@
                 <div class="container">
                     <h1 style="text-align:center">Schedule</h1>
                     <hr class="heading-spacer">
-                    <p class="lead text-danger center">*Schedule Subject to Change*</p>
                     <div class="col-sm-2"></div>
                     <div class="row col-sm-8">
                         <h4 style="text-align:center">Thursday, March 31st</h4>  
@@ -158,16 +157,28 @@
                                     <td>Check In Begins</td>
                                 </tr>
                                 <tr>
-                                    <td>5 PM</td>
+                                    <td>4:30 PM</td>
                                     <td>Opening Ceremonies</td>
+                                </tr>
+                                <tr>
+                                    <td>5:30 PM</td>
+                                    <td>Hacking Begins, DataX Industry Reception Begins</td>
                                 </tr>
                                 <tr>
                                     <td>7 PM</td>
                                     <td>Dinner</td>
                                 </tr>
                                 <tr>
+                                    <td>8 PM</td>
+                                    <td>Workshop</td>
+                                </tr>
+                                <tr>
+                                    <td>8 PM</td>
+                                    <td>Workshop</td>
+                                </tr>
+                                <tr>
                                     <td>10 PM</td>
-                                    <td>How to Build a <br> Website Workshop</td>
+                                    <td>How to Build a website Workshop</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -195,19 +206,19 @@
                                 </tr>
                                 <tr>
                                     <td>3 PM</td>
-                                    <td>Judges Arrive</td>
+                                    <td>Hacking Ends, Judges Arrive</td>
+                                </tr>
+                                <tr>
+                                    <td>3:15 PM</td>
+                                    <td>First Round Judging Begins</td>
                                 </tr>
                                 <tr>
                                     <td>4 PM</td>
-                                    <td>Expo</td>
+                                    <td>10 Ten Apps Pitch to Executive Judge Panel</td>
                                 </tr>
                                 <tr>
                                     <td>5 PM</td>
-                                    <td>Pitches</td>
-                                </tr>
-                                <tr>
-                                    <td>6 PM</td>
-                                    <td>Awards and Clean Up</td>
+                                    <td>Awards and Clean Up, DataX Symposium Reception Begins</td>
                                 </tr>
                             </tbody>
                         </table>
