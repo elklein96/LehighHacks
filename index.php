@@ -214,7 +214,7 @@
                                 </tr>
                                 <tr>
                                     <td>4 PM</td>
-                                    <td>10 Ten Apps Pitch to Executive Judge Panel</td>
+                                    <td>Top Ten Apps Pitch to Executive Judge Panel</td>
                                 </tr>
                                 <tr>
                                     <td>5 PM</td>
