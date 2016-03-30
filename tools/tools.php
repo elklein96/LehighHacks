@@ -147,11 +147,10 @@
                 </div>
                 <div class="row">
                     <div class="col-lg-6 col-sm-6" style="height:250px;">
-                        <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="http://www.opencalais.com/opencalais-demo/" target="blank">OpenCalais Demo</a></p>
                         <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="https://thomsonreuters.webex.com/thomsonreuters/ldr.php?RCID=bf361b96c0d84744c2906a747edfd172" target="blank">TR API Video Tutorial</a></p>
+                        <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="../img/challenges/LehighHacks2016[5].pptx" target="blank">TR API PowerPoint Tutorial</a></p> 
                     </div>
                     <div class="col-lg-6 col-sm-6" style="height:250px;">
-                        <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="../img/challenges/LehighHacks2016[5].pptx" target="blank">TR API PowerPoint Tutorial</a></p> 
                         <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="../img/challenges/USStockRICsByIndex[1][1][2].xlsx" target="blank">US Stock RICs By Index</a></p> 
                     </div>
                 </div>

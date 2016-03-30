@@ -383,7 +383,7 @@
                             </div>
                             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://reuters.com/" target="_blank"><img id="reuters-logo" class="img-responsive sponsorMedium" src="img/sponsors/reuters-logo.png" alt=""></a>
+                                <a href="http://thomsonreuters.com/" target="_blank"><img id="reuters-logo" class="img-responsive sponsorMedium" src="img/sponsors/reuters-logo.png" alt=""></a>
                                 <br>
                             </div>
                         </div>
