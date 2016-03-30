@@ -35,6 +35,9 @@
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
+                        <a href="#General">General</a>
+                    </li>
+                    <li>
                         <a href="#SmartEnvironments">Smart Environments</a>
                     </li>
                      <li>
@@ -85,8 +88,26 @@
         </div>
     </header>
 
-    <section id="SmartEnvironments">
+    <section id="General">
         <div class="content-section-a">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <h2>General</h2>
+                        <hr class="star-primary">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <p class="lead"><img style="max-width:65px; margin:25px;" src="../img/logo.png"><a href="../img/challenges/LehighHacksHardwareList.docx" target="blank">Hardware List</a></p> 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="SmartEnvironments">
+        <div class="content-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -95,12 +116,20 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/intel-logo.png"><a href="https://software.intel.com/en-us/iot/library/edison-getting-started" target="blank">Getting Started With Intel Edison</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/intel-logo.png"><a href="https://software.intel.com/en-us/iot/library/galileo-getting-started" target="blank">Getting Started With Intel Galileo</a></p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">
                         <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/qualcomm-logo.png"><a href="http://www.instructables.com/id/Getting-Started-IFC6410/" target="blank">Getting Started With IFC6410+</a></p>
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/wellsfargo-logo.jpg"><a href="../img/challenges/SocialAppsChallenge-WellsFargo.docx" target="blank">Wells Fargo Challenge</a></p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">    
                         <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/lutron-logo.png"><a href="../img/challenges/SmartEnvironmentsChallenge-Lutron.docx" target="blank">Lutron Challenge</a></p>
+                        <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/lutron-logo.png"><a href="../img/challenges/LutronPresentation.ppt" target="blank">Lutron Presentation</a></p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">    
+                        <p class="lead"><img style="max-width:125px; margin:25px;" src="../img/sponsors/osisoft-logo.png"><a href="../img/challenges/Osisoft-Lehigh_University_PI_WebAPI_Introduction.pptx" target="blank">OSIsoft Pi System Tutorial</a></p>
                     </div>
                 </div>
             </div>
@@ -108,7 +137,7 @@
     </section>
 
     <section id="FinTech">
-        <div class="content-section">
+        <div class="content-section-a">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -117,8 +146,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 text-center">
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">
                         <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="http://www.opencalais.com/opencalais-demo/" target="blank">OpenCalais Demo</a></p>
+                        <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="https://thomsonreuters.webex.com/thomsonreuters/ldr.php?RCID=bf361b96c0d84744c2906a747edfd172" target="blank">TR API Video Tutorial</a></p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">
+                        <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="../img/challenges/LehighHacks2016[5].pptx" target="blank">TR API PowerPoint Tutorial</a></p> 
+                        <p class="lead"><img style="max-width:175px; margin:25px;" src="../img/sponsors/reuters-alpha-logo.png"><a href="../img/challenges/USStockRICsByIndex[1][1][2].xlsx" target="blank">US Stock RICs By Index</a></p> 
                     </div>
                 </div>
             </div>
@@ -126,7 +160,7 @@
     </section>
 
     <section id="SocialApps">
-        <div class="content-section-a">
+        <div class="content-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
@@ -135,9 +169,13 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-lg-12 text-center">
-                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/cce-logo.png"><a href="../img/challenges/SocialAppsChallenge-4Blocks.docx" target="blank">Center for Community Engagement Challenge</a></p>
-                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/lehigh-shield.png"><a href="https://github.com/mfs409/golang-webapp-tutorial" target="blank">Professor Spear's Go Web Tutorial</a></p>
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/cce-logo.png"><a href="../img/challenges/SocialAppsChallenge-4Blocks.docx" target="blank">CCE Challenge</a></p>
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/lehigh-shield.png"><a href="https://github.com/mfs409/golang-webapp-tutorial" target="blank">Professor Spear's Go Github Repo</a></p>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" style="height:250px;">
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/lehigh-shield.png"><a href="../img/challenges/IntroToAppDesign.pptx" target="blank">Professor Spear's Go Web Tutorial</a></p>
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/unesco-logo.jpg"><a href="../img/challenges/UNESCOChallenge" target="blank">UNESCO Challenge</a></p>
                     </div>
                 </div>
             </div>
