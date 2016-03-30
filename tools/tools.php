@@ -175,7 +175,7 @@
                     </div>
                     <div class="col-lg-6 col-sm-6" style="height:250px;">
                         <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/lehigh-shield.png"><a href="../img/challenges/IntroToAppDesign.pptx" target="blank">Professor Spear's Go Web Tutorial</a></p>
-                        
+                        <p class="lead"><img style="max-width:75px; margin:25px;" src="../img/sponsors/unesco-logo.jpg"><a href="../img/challenges/SocialAppsChallenge-UNESCO.docx" target="blank">UNESCO Challenge</a></p>
                     </div>
                 </div>
             </div>
