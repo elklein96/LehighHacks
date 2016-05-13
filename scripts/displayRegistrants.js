@@ -43,7 +43,7 @@ $(document).on('click', '.check-record', function (e) {
   $(document).on('click', '#delete-button', function () {
     $.ajax({
       type:   "POST",
-      url:    "http://108.24.150.90/LehighHacks/register.php",
+      url:    "http://108.24.169.160/LehighHacks/register.php",
       data:   {
           remove:  selectedRecords
       },
@@ -59,7 +59,7 @@ $(document).on('click', '.check-record', function (e) {
   $(document).on('click', '#checkin-button', function () {
     $.ajax({
       type:   "POST",
-      url:    "http://108.24.150.90/LehighHacks/register.php",
+      url:    "http://108.24.169.160/LehighHacks/register.php",
       data:   {
           checkIn:  selectedRecords
       },
@@ -89,7 +89,7 @@ $(document).on('input', '#search-bar', function (event) {
 
   $.ajax({
     type:   "POST",
-    url:    "http://108.24.150.90/LehighHacks/search.php",
+    url:    "http://108.24.169.160/LehighHacks/search.php",
     data:   {
         query:  search
     },
@@ -114,7 +114,7 @@ $(document).on('input', '#search-bar', function (event) {
 
 function loadRecords(){
   $.ajax({
-    url:    "http://108.24.150.90/LehighHacks/registrant_aggregator.php",
+    url:    "http://108.24.169.160/LehighHacks/registrant_aggregator.php",
     type:   "POST",
     data:   {
         data:  "data"
