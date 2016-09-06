@@ -259,13 +259,13 @@
                     <div class="row">
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
-                            <h3 class="section-heading">Wednesday, September 14th</h3>
+                            <h3 class="section-heading">Wednesday, October 12th</h3>
                             <p class="lead">LehighHacks Kick Off Event! Come out to Packard 101 at 5pm to meet representatives from some of our corporate partners! We'll have plenty of food and coding tutorials.</p>
                         </div>
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">More workshops coming soon!</h3>
-                            <p class="lead">We're working closely with ACM to provide ample amaounts of tutorial before LehighHacks to best prepare anyone who wants to participate. Check back for updates!</p>
+                            <p class="lead">We're working closely with ACM to provide ample amounts of tutorials before LehighHacks to best prepare anyone who wants to participate. Check back for updates!</p>
                         </div>
                     </div>
                 </div>
