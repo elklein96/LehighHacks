@@ -114,7 +114,7 @@
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
     <script src="/scripts/bootstrap.min.js"></script>
-    <script src="/scripts/contact_me.js"></script>
+    <script src="/scripts/promo.js"></script>
     <script src="/scripts/jqBootstrapValidation.min.js"></script>
     <script src="/scripts/main.min.js"></script>
     <script>
