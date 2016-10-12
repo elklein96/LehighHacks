@@ -18,51 +18,6 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-default navbar-fixed-top topnav" role="navigation">
-        <div class="container topnav">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand topnav" href="#">LehighHacks</a>
-            </div>
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#schedule">Schedule</a>
-                    </li>
-                     <li>
-                        <a href="#workshops">Workshops</a>
-                    </li>
-                    <li>
-                        <a href="#map">Map</a>
-                    </li>
-                    <li>
-                        <a href="#judging">Judging</a>
-                    </li>
-                    <li>
-                        <a href="#partners">Partners</a>
-                    </li>
-                    <li>
-                        <a href="#register">Register</a>
-                    </li>
-                    <li>
-                        <a href="#more">More</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
     <div class="static-background">
         <section id="register">
             <div class="content-section-a">
@@ -158,14 +113,10 @@
     </div>
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-    <script src="../scripts/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
-    <script src="../scripts/classie.js"></script>
-    <script src="../scripts/cbpAnimatedHeader.js"></script>
-    <script src="../scripts/promo.js"></script>
-    <script src="../scripts/jqBootstrapValidation.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
-    <script src="../scripts/main.min.js"></script>
+    <script src="/scripts/bootstrap.min.js"></script>
+    <script src="/scripts/contact_me.js"></script>
+    <script src="/scripts/jqBootstrapValidation.min.js"></script>
+    <script src="/scripts/main.min.js"></script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
