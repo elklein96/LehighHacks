@@ -321,20 +321,47 @@
                 <div class="container">
                     <h1 style="text-align:center">Partners</h1>
                     <hr class="heading-spacer">
-                    <div id="sponsors-row" class="row hidden">
-                        
+                    <div id="sponsors-row" class="row">
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
-                                <div class="clearfix"></div>
-                                <a href="http://ibm.com" target="_blank"><img id="ibm-logo" class="img-responsive sponsorMedium" src="img/sponsors/ibm-bw.png" alt=""></a>
-                                <br>
-                            </div>
-                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
                                 <a href="http://osisoft.com" target="_blank"><img id="osisoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/osisoft-logo.png" alt=""></a>
                                 <br>
                             </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://knowledgent.com" target="_blank"><img id="knowledgent-logo" class="img-responsive sponsorMedium" src="img/sponsors/knowledgent-logo.jpeg" alt=""></a>
+                                <br>
+                            </div>
                         </div>
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://thomsonreuters.com/" target="_blank"><img id="reuters-logo" class="img-responsive sponsorMedium" src="img/sponsors/reuters-logo.png" alt=""></a>
+                                <br>
+                            </div>
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://github.com" target="_blank"><img id="github-logo" class="img-responsive sponsorMedium" src="img/sponsors/github-logo.jpg" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
+                                <br>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://lehigh.edu/~inengage/" target="_blank"><img id="cce-logo" class="img-responsive sponsorMedium" src="img/sponsors/cce-logo.png" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div id="sponsors-row-2016s" class="row hidden">
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
