@@ -4,7 +4,7 @@ $(document).on("click", "#submitButton", function(){
     
     var data = {"firstName": $('#Field1').val(), "lastName": $('#Field2').val(), "email": $('#Field3').val(), "phone": $('#Field4').val().replace(/(-)/g, ""), "suggestions": $('#Field5').val(), "resume": "PROMO", "dietary": $('#Field8').val(), "first": firstHackathon, "major": $('#Field9').val(), "referral": "Front lawn coffee promo", "checkedIn": "false"};
     $.ajax({
-        url:    "http://108.24.169.160/LehighHacks/register.php",
+        url:    "http://108.24.144.16/LehighHacks/register.php",
         type:   "POST",
         data:   {
             data: data
