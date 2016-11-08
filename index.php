@@ -113,7 +113,7 @@
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">How does this work?</h3>
-                            <p class="lead">LehighHacks is a 36 hour event from December 2nd - December 3rd, 2016 and will be held at The Mountaintop Campus. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
+                            <p class="lead">LehighHacks is a 36 hour event from December 2nd - December 3rd, 2016 and will be held at The Fairchild-Martindale Library. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
@@ -233,30 +233,6 @@
                 <div class="container">
                     <h1 style="text-align:center">Workshops</h1>
                     <hr class="heading-spacer">
-                    <div class="row hidden">
-                        <div class="col-lg-5 col-sm-6">
-                            <div class="clearfix"></div>
-                            <h3 class="section-heading">TBA</h3>
-                            <p class="lead">LehighHacks Kick Off Event! Come out to Packard 101 at 5pm to meet representatives from IBM. We'll be learning about an introduction to IBM's Bluemix platform and Watson. No coding experience is necessary!</p>
-                        </div>
-                        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                            <div class="clearfix"></div>
-                            <h3 class="section-heading">Wednesday, February 24th</h3>
-                            <p class="lead">Come out to Packard 466 at 4pm for a technical workshop that will cover the basics of web development, Git, and other technologies that are essential to succeeding at hackathons.</p>
-                        </div>
-                    </div>
-                    <div class="row hidden">
-                        <div class="col-lg-5 col-sm-6">
-                            <div class="clearfix"></div>
-                            <h3 class="section-heading">Wednesday, March 9th</h3>
-                            <p class="lead">Be there for our Blue Sky Event in Neville 1 at 5pm. Representatives from our corporate partners will be present to help us brainstrom solutions to various problems their respective companies face in industry. We'll form ideas to tackle during the hackathon.</p>
-                        </div>
-                        <div class="col-lg-5 col-lg-offset-1 col-sm-6">
-                            <div class="clearfix"></div>
-                            <h3 class="section-heading">Wednesday, March 23rd</h3>
-                            <p class="lead">Our final workshop will cover various technologies offered to us by our corporate partners. We'll make sure that everyone has the tools to succeed at LehighHacks!</p>
-                        </div>
-                    </div>
                     <div class="row">
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
@@ -265,8 +241,20 @@
                         </div>
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
-                            <h3 class="section-heading">More workshops coming soon!</h3>
-                            <p class="lead">We're working closely with ACM to provide ample amounts of tutorials before LehighHacks to best prepare anyone who wants to participate. Check back for updates!</p>
+                            <h3 class="section-heading">Friday, November 4th</h3>
+                            <p class="lead">Node.js workshop. Come learn about the basics of Node.js. We'll start from the beginning and go over NPM, Express, and other need-to-know features that will help you succeed at the hackathon!</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading">Monday, November 7th</h3>
+                            <p class="lead">Git workshop. Come out for ACM's Git tutorial. Git is a version control system widely used in industry. This workshop will demonstrate the basics and show you how to use this powerful software in a practical setting.</p>
+                        </div>
+                        <div class="col-lg-5 col-sm-6">
+                            <div class="clearfix"></div>
+                            <h3 class="section-heading">Wednesday, November 9th</h3>
+                            <p class="lead">IBM Virtual Reality workshop. Come out to learn about Virtual Reality from an IBM engineer! We will cover the basics of creating a VR app from scratch, and touch on different VR technologies.</p>
                         </div>
                     </div>
                 </div>
@@ -279,7 +267,7 @@
                     <h1 style="text-align:center">Map</h1>
                     <hr class="heading-spacer">
                     
-                    <iframe width="100%" height="450" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3029.0414697113492!2d-75.38047724959246!3d40.60690867924207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43e677d5c6ae5%3A0x5db0e9ed646fb320!2sLehigh+University!5e0!3m2!1sen!2sus!4v1472500118289" allowfullscreen></iframe>
+                    <iframe width="100%" height="450" class="col-md-8 col-md-offset-2" frameborder="0" style="border:0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3028.95371745691!2d-75.3803196851552!3d40.60884477934325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c43e5d1a0c8afd%3A0x60977b6039b02b88!2sE.W.+Fairchild-Martindale+Library+and+Computing+Center%2C+8+E+Packer+Ave%2C+Bethlehem%2C+PA+18015!5e0!3m2!1sen!2sus!4v1478565009281" allowfullscreen></iframe>
                 </div>
             </div>
         </section>
