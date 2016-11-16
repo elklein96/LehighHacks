@@ -352,20 +352,12 @@
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://www.miacanalytics.com/" target="_blank"><img id="miac-logo" class="img-responsive sponsorMedium" src="img/sponsors/miac-logo.jpg" alt=""></a>
+                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
                             </div>
                             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
                                 <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo.png" alt=""></a>
-                                <br>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-5 col-sm-6">
-                                <div class="clearfix"></div>
-                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
                             </div>
                         </div>
@@ -482,10 +474,113 @@
                         </div>
                     </div>
 
-                    <div class="row">
+                    <div class="row hidden">
                         <div class="col-lg-12 text-center">
-                            <p class="lead">Registration is closed for Fall 2016, but check back for more information soon!</p>
+                            <p class="lead">Registration is closed for Fall 2016, but check back for more information about Spring 2017 registration!</p>
                         </div>
+                    </div>
+
+                    <div class="row">
+                        <form id="form1" name="form1" class="form-horizontal" accept-charset="UTF-8" action="javascript:void(0);" enctype="multipart/form-data">
+
+                            <div class="col-md-8 col-md-offset-2">
+                                <div class="panel panel-default animated fadeInUp">
+                                    <div class="panel-body">
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field2">Your Name</label>
+                                            <div class="col-sm-4">
+                                                <input id="Field1" name="Field1" type="text" class="form-control" placeholder="First name" value="" size="8" tabindex="1" required="" required data-validation-required-message="What's your name?">
+                                            </div>
+                                            <div class="col-sm-5">
+                                                <input id="Field2" name="Field2" type="text" class="form-control" placeholder="Last name" value="" size="14" tabindex="2" required="" required data-validation-required-message="What's your name?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Your Email</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field3" name="Field3" type="email" spellcheck="false" class="form-control" placeholder="john.doe@lehigh.edu" value="" maxlength="255" tabindex="3" required="" required data-validation-required-message="What's your email?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Phone Number</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field4" name="Field4" type="text" class="form-control" placeholder="555-123-4567" value="" tabindex="4" required="" required data-validation-required-message="What's your phone number?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Major</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field9" name="Field9" type="text" class="form-control" placeholder="Computer Engineering" value="" tabindex="5" required="" required data-validation-required-message="What's your major?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Resume</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field6" name="Field6" type="file" class="form-control" size="12" tabindex="6" required data-validation-required-message="Submit your resume.">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Dietary Restrictions</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field8" name="Field8" type="text" class="form-control" placeholder="Vegetarian, Kosher, N/A, etc..." value="" tabindex="7" required="" required data-validation-required-message="Do you have food restrictions?">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">Goals</label>
+                                            <div class="col-sm-9">
+                                                <textarea id="Field5" name="Field5" type="text" class="form-control" placeholder="I want to explore IoT and hardware hacks" value="" size="14" tabindex="8" rows="3" required="" required data-validation-required-message="What do you want to gain from this event?"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field4">How Did You Hear About Us?</label>
+                                            <div class="col-sm-9">
+                                                <textarea id="Field10" name="Field10" type="text" class="form-control" placeholder="I am a member of CREATE Club" value="" size="14" tabindex="9" rows="3" required="" required data-validation-required-message="Where did you hear about LehighHacks?"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field5">First Hackathon?</label>
+                                            <div class="col-sm-9">
+                                                <input id="Field7" name="Field7" type="checkbox" tabindex="10" value="true">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-3 control-label" for="Field8">I Accept the <a href="./img/mlh-code-of-conduct.pdf" target="_blank">MLH Code of Conduct</a></label>
+                                            <div class="col-sm-9">
+                                                <input id="Field8" name="Field8" type="checkbox" tabindex="11" value="true" required="" required data-validation-required-message="Please review and accept the code of conduct.">
+                                            </div>
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label class="col-sm-12" for="Field9" style="text-align: justify;">I agree to the terms of both the MLH Contest Terms and Conditions and the MLH Privacy Policy. Please note that you may receive pre and post-event informational e-mails and occasional messages about hackathons from MLH as per the MLH Privacy Policy.</label>
+                                            <label class="col-sm-3 control-label" for="Field9">I agree to the Above Statement</label>
+                                            <div class="col-sm-9" style="margin-top: 2%;">
+                                                <input id="Field9" name="Field9" type="checkbox" tabindex="12" value="true" required="" required data-validation-required-message="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-12 text-center form-buttons">
+                                <button id="submitButton" type="submit" class="btn btn-success btn-lg">Send</button>
+                            </div>
+
+                          <div style="display:none;">
+                            <label for="comment">Do Not Fill This Out</label>
+                            <textarea name="comment" id="comment" rows="1" cols="1"></textarea>
+                            <input type="hidden" id="idstamp" name="idstamp" value="+gixPvNWHIDRPC8DBxImXpJzbDl+8mIrJgFKaCQ3gAM=">
+                          </div>
+                        </form>
                     </div>
                     <div class="row">
                         <div class="col-lg-12 text-center">
