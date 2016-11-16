@@ -314,12 +314,12 @@
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://osisoft.com" target="_blank"><img id="osisoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/osisoft-logo.png" alt=""></a>
+                                <a href="http://lutron.com/" target="_blank"><img id="lutron-logo" class="img-responsive sponsorMedium" src="img/sponsors/lutron-logo.png" alt=""></a>
                                 <br>
                             </div>
                             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://knowledgent.com" target="_blank"><img id="knowledgent-logo" class="img-responsive sponsorMedium" src="img/sponsors/knowledgent-logo.jpeg" alt=""></a>
+                                <a href="http://osisoft.com" target="_blank"><img id="osisoft-logo" class="img-responsive sponsorMedium" src="img/sponsors/osisoft-logo.png" alt=""></a>
                                 <br>
                             </div>
                         </div>
@@ -329,7 +329,20 @@
                                 <a href="http://thomsonreuters.com/" target="_blank"><img id="reuters-logo" class="img-responsive sponsorMedium" src="img/sponsors/reuters-logo.png" alt=""></a>
                                 <br>
                             </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://knowledgent.com" target="_blank"><img id="knowledgent-logo" class="img-responsive sponsorMedium" src="img/sponsors/knowledgent-logo.jpeg" alt=""></a>
+                                <br>
+                            </div>
+                        </div>
+
+                        <div class="row">
                             <div class="col-lg-5 col-sm-6">
+                                <div class="clearfix"></div>
+                                <a href="http://www.miacanalytics.com/" target="_blank"><img id="miac-logo" class="img-responsive sponsorMedium" src="img/sponsors/miac-logo.jpg" alt=""></a>
+                                <br>
+                            </div>
+                            <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
                                 <a href="http://github.com" target="_blank"><img id="github-logo" class="img-responsive sponsorMedium" src="img/sponsors/github-logo.jpg" alt=""></a>
                                 <br>
@@ -352,20 +365,12 @@
                         <div class="row">
                             <div class="col-lg-5 col-sm-6">
                                 <div class="clearfix"></div>
-                                <a href="http://www.miacanalytics.com/" target="_blank"><img id="miac-logo" class="img-responsive sponsorMedium" src="img/sponsors/miac-logo.jpg" alt=""></a>
+                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
                             </div>
                             <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                                 <div class="clearfix"></div>
                                 <a href="http://lehighbakerinstitute.com/" target="_blank"><img id="baker-logo" class="img-responsive sponsorMedium" src="img/sponsors/baker-logo.png" alt=""></a>
-                                <br>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-lg-5 col-sm-6">
-                                <div class="clearfix"></div>
-                                <a href="http://createlehigh.me" target="_blank"><img id="create-logo" class="img-responsive sponsorMedium" src="img/sponsors/create-logo-bw.png" alt=""></a>
                                 <br>
                             </div>
                         </div>
