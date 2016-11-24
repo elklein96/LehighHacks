@@ -426,3 +426,40 @@ p.copyright {
         margin-right: 0;
     }
 }
+
+#clockdiv {
+    color: #fff;
+    display: inline-block;
+    font-weight: 100;
+    text-align: center;
+    font-size: 20px;
+    float: right;
+    margin-top: 6px;
+}
+
+#clockdiv > div {
+    font-family: sans-serif;
+    padding: 10px;
+    border-radius: 3px;
+    background: #0099cc;
+    display: inline-block;
+}
+
+#clockdiv div > span {
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 3px;
+    background: #000033;
+    display: inline-block;
+}
+
+.smalltext {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: -20px;
+}
+
+.tools-header {
+    color: #333;
+    font-size: 30px;
+}
