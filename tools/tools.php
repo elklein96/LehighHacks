@@ -16,7 +16,10 @@
 </head>
 
 <body style="overflow-x:hidden;">
-    <div id="wrapper">
+    <div class="stealth-tools">
+        <div id="content-tools">Coming soon!</div>
+    </div>
+    <div id="wrapper" class="hidden">
         <nav class="navbar-default" role="navigation" style="height:120px;">
             <div class="container topnav">
                 <div id="clockdiv">
