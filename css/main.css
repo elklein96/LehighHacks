@@ -463,3 +463,15 @@ p.copyright {
     color: #333;
     font-size: 30px;
 }
+
+.stealth-tools {
+    position: absolute;
+    left: 33vw;
+    top: 43vh;
+}
+
+#content-tools {
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+}
