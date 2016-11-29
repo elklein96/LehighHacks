@@ -91,6 +91,30 @@ h6 {
         background-image:none;
         color: #502f14;
     }
+
+    .static-background{
+        background-color: #4f2f15;
+    }
+
+    .tools-header {
+        display: none !important;
+    }
+    
+    .banner h2 {
+        margin: 0;
+        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
+        font-size: 3em;
+    }
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
 }
 
 .network-name {
@@ -151,24 +175,6 @@ h6 {
     }
 }
 
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-}
-
 footer {
     padding: 50px 0;
     background-color: #f8f8f8;
@@ -202,12 +208,6 @@ p.copyright {
     }
     to {
         top:0px; opacity: 1;
-    }
-}
-
-@media only screen and (max-width : 767px) {
-    .static-background{
-        background-color: #4f2f15;
     }
 }
 
@@ -460,8 +460,9 @@ p.copyright {
 }
 
 .tools-header {
-    color: #333;
-    font-size: 30px;
+    color: #393939;
+    margin-top: 6%;
+    display: inline-block;
 }
 
 .stealth-tools {

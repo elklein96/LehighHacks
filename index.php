@@ -113,7 +113,7 @@
                         <div class="col-lg-5 col-sm-6">
                             <div class="clearfix"></div>
                             <h3 class="section-heading">How does this work?</h3>
-                            <p class="lead">LehighHacks is a 36 hour event from December 2nd - December 3rd, 2016 and will be held at The Fairchild-Martindale Library. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
+                            <p class="lead">LehighHacks is a 24 hour event from December 2nd - December 3rd, 2016 and will be held at The Fairchild-Martindale Library. Students will get together to create some awesome stuff, win prizes, and meet cool people.</p>
                         </div>
                         <div class="col-lg-5 col-lg-offset-1 col-sm-6">
                             <div class="clearfix"></div>
@@ -174,7 +174,7 @@
                                     <td>Workshop</td>
                                 </tr>
                                 <tr>
-                                    <td>8 PM</td>
+                                    <td>9 PM</td>
                                     <td>Workshop</td>
                                 </tr>
                                 <tr>

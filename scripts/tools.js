@@ -41,9 +41,13 @@ $(function() {
 });
 $(document).on("click touchstart", ".sidebar-brand", function(e) {
     $("html, body").animate({
-        scrollTop: $('#').offset().top
+        scrollTop: $('#top').offset().top
     }, 1000, "easeInOutExpo");
 }), $(document).on("click touchstart", "#li-gen", function(e) {
+    $("html, body").animate({
+        scrollTop: $('#general').offset().top
+    }, 750, "easeInOutExpo");
+}), $(document).on("click touchstart", "#li-hardware", function(e) {
     $("html, body").animate({
         scrollTop: $('#hardware').offset().top
     }, 750, "easeInOutExpo");
